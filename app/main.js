@@ -9,8 +9,6 @@ var GoogleSpreadsheets = require("google-spreadsheets");
 
 app.use(bodyParser());
 
-console.log(process.env);
-
 var port = process.env.PORT || 8282; 		// set our port
 
 
