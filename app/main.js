@@ -9,6 +9,8 @@ var GoogleSpreadsheets = require("google-spreadsheets");
 
 app.use(bodyParser());
 
+app.use(express.basicAuth('testUser', 'testPass'));
+
 var port = process.env.PORT || 8282; 		// set our port
 
 
