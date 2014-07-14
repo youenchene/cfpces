@@ -1,4 +1,5 @@
 var express    = require('express'); 		// call express
+var moment = require('moment');
 var app        = express(); 				// define our app using express
 var bodyParser = require('body-parser');
 var auth = require('basic-auth-old')({
@@ -46,6 +47,7 @@ router.get('/proposal', function(req, res) {
 		while (i < spreadsheet.worksheets[0].rowCount) {
 			if (result.cells[i] != undefined) {
 				var proposal=new Object();
+                proposal.proposaldate=moment(result.cells[i][1].value,"DD/MM/YYYY HH:mm:ss");
 				proposal.speaker=result.cells[i][3].value+" "+result.cells[i][19].value;
 				proposal.title=result.cells[i][2].value;
 				proposal.description=result.cells[i][12].value;

@@ -1,7 +1,7 @@
 function MainCtrl($scope, $http,  $modal) {
 
-    $scope.orderByField = 'theme';
-    $scope.reverseSort = false;
+    $scope.orderByField = 'proposaldate';
+    $scope.reverseSort = true;
 
     $scope.alerts= [];
 
