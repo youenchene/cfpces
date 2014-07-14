@@ -10,16 +10,14 @@ var GoogleSpreadsheets = require("google-spreadsheets");
 app.use(bodyParser());
 
 
-var port = process.env.PORT || 8282; 		// set our port
+var port = process.env.PORT || 80; 		// set our port
 
 
 var router = express.Router();
 
-var config=require('./config.js')
-
 var googleAuth = new GoogleClientLogin({
-    email: config.email,
-    password: config.password,
+    email: process.env.config_email,
+    password: process.env.config_password,
     service: 'spreadsheets',
     accountType: GoogleClientLogin.accountTypes.google
 });
