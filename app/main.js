@@ -1,15 +1,21 @@
 var express    = require('express'); 		// call express
 var app        = express(); 				// define our app using express
 var bodyParser = require('body-parser');
+var auth = require('basic-auth-old')({
+    name: 'CFP CES',
+    accounts: [
+        'ces:waji'
+    ]
+}).auth;
 
 var GoogleClientLogin = require("googleclientlogin").GoogleClientLogin;
 var GoogleSpreadsheets = require("google-spreadsheets");
 
 
+app.all('*',auth);
 
 app.use(bodyParser());
 
-app.use(express.basicAuth('testUser', 'testPass'));
 
 var port = process.env.PORT || 8282; 		// set our port
 
@@ -86,8 +92,13 @@ googleAuth.login();
 		
 });
 
+
+
+
 app.use('/', express.static(__dirname + '/html'));
 
 app.use('/api', router);
+
+
 
 app.listen(port);
