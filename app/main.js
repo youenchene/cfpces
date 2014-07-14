@@ -32,7 +32,7 @@ router.get('/proposal', function(req, res) {
 
 	googleAuth.on(GoogleClientLogin.events.login, function(){
     GoogleSpreadsheets({
-        key: "0Atd5qwwDGGk7dGh0YkhGQ3paX3FGbTNYNmZHRTM5TkE",
+        key: process.env.config_dockey,
         auth: googleAuth.getAuthId()
     }, function(err, spreadsheet) {
         spreadsheet.worksheets[0].cells({ range: "R1C1:R99C21" },function(err, result) {
