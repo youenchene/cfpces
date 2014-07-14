@@ -17,7 +17,7 @@ var port = process.env.PORT || 8282; 		// set our port
 var router = express.Router();
 
 var googleAuth = new GoogleClientLogin({
-    email: process.env.config_email+'t',
+    email: process.env.config_email,
     password: process.env.config_password,
     service: 'spreadsheets',
     accountType: GoogleClientLogin.accountTypes.google
