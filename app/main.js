@@ -4,7 +4,7 @@ var bodyParser = require('body-parser');
 var auth = require('basic-auth-old')({
     name: 'CFP CES',
     accounts: [
-        'ces:waji'
+        process.env.config_ba_login+':'+process.env.config_ba_password
     ]
 }).auth;
 
