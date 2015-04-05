@@ -1,0 +1,7 @@
+{
+  "name": "CFPCES-JUG",
+  "description": "CFP CES for sharing with JUG",
+  "repository": "hhttps://github.com/youenchene/cfpces",
+  "logo": "http://www.codeursenseine.com/assets/img/logo-codeurs-en-seine.png",
+  "keywords": ["node", "express", "static"]
+}
