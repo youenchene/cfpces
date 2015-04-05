@@ -1,0 +1,973 @@
+[
+
+  {
+
+    "proposaldate": "2014-06-02T20:10:53.000Z",
+    "speaker": "Cyril Lakech",
+    "title": "Git++ : Passez au niveau supérieur de la gestion de version",
+    "description": "On utilise tous git mais on constate trop souvent qu'il est utilisé comme SVN malheureusement. Git apporte de la valeur dans le quotidien d'un développeur sans forcément ajouter de complexité.\n\nAvec git rebase et un peu de volonté, on peut réussir à avoir un historique expressif qui aidera tous les développeurs à s'y retrouver et il vous permettra même de générer un changelog fonctionnel ! Vous pouvez aussi récupérer des commits d'une branche sur une autre. Et plus encore!\n\nVenez apprendre quelques astuces simples qui vous permettrons d'améliorer votre manière de gérer votre code!",
+    "explaination": "On aimerai parler de git simplement, sans faire peur avec des commandes complexes, mais en démontrant qu'avec quelques automatismes simples on peu apporter de la valeur au produit en étant plus efficace et plus expressifs dans notre manière de gérer l'historique de notre code source.\n\nC'est la base du métier de développeur et on est trop souvent confronté à des développeurs de toutes expériences qui ne savent pas faire autre chose que pull / commit / push! Il faut que cela cesse!\n\nOn a déjà fait cette présentation à Devoxx France et dans 3 BBLs sous le format Tool in Actions. \n\nA voir sur parleys: http://www.parleys.com/play/535a2846e4b03397a8eee892/chapter0/about",
+    "type": "Conférence",
+    "bio": "Développeur. Ch'ti JUG Leader.\n\nPassionné par le métier de développeur, je m'intéresse à tous les domaines que je ne connais pas et aux bonnes pratiques de qualité comme les tests ou la revue de code. Je suis partisans des méthodes agiles et convaincu par l'approche devops. Je me concentre sur le dev web en JS HTML CSS en utilisant AngularJS, Grunt et tout l'écosystème de ces outils.\n\nCo-fondateur du Ch'ti JUG il y a 5 ans, je me suis retrouvé organisateur d'évènements et animateur de la communauté Java dans le Nord. Je me suis lancé dans l'organisation d'un Devoxx4Kids à Lille.\n\nJe travaille chez Groupe Adeo où c'est un plaisir de travailler car on a l'autonomie et les moyens pour réaliser un développement de qualité.",
+    "email": "cyril.lakech@gmail.com",
+    "job": "Développeur",
+    "company": "GROUPE ADEO / CH'TI JUG",
+    "cospeaker": "Hubert Sablonnière est un développeur Web passionné d’HTML, CSS et JavaScript.\n\nDepuis 5 ans il intervient chez INEAT Conseil en conseil et développement sur des projets Web (desktop et mobile). Habitué des plateformes Java et PHP, sa spécialité reste le JavaScript. Il donne même des cours dessus à l'ISEN Lille.\n\nQuand il lui reste un peu de temps, il bidouille et contribue modestement à quelques projets : Firefox, DZslides...",
+    "theme": "Agile (Organisation, Dev Ops, Backlog, Bonnes pratiques)",
+    "format": "Conférence (45 min) - 16 sessions",
+    "needs": "un public et du fun ;-)",
+    "twitter": "@cyril_lakech",
+    "blog": "www.chtijug.org",
+    "sharing": "J'autorise le partage de mes informations",
+    "level": "Confirmé"
+
+  },
+  {
+
+    "proposaldate": "2014-06-10T15:48:26.000Z",
+    "speaker": "Brice Favre",
+    "title": "Dette Technique, responsabilité collective, solution individuelle?",
+    "description": "Tout s’est passé un lundi matin. Comme bien souvent ces jours là, je reçois un document de spécification. Au milieu de considérations diverses se trouve ce que je dois faire. Mauvaise nouvelle, il s’agit de reprendre un code antédiluviens (c’est à dire d’il y’a 6 mois en langage informatique). Depuis nous avons changer de framework javascript (j’y connais pas grand chose), fait évoluer nos chartes (j’y comprends encore moins) et maintenu notre backend (ça je maitrise). Deux choix s’offrent à moins, une solution simple et sure consistant à faire une simple évolution, soit une solution plus risqué à court terme qui passe par une remise à niveau rapide du code et de mes compétences.\n\nC’est bien évidemment ce deuxième choix que j’ai fait.",
+    "explaination": "J’introduirais donc la présentation par cette petite histoire puis, dans une première partie détaillerai le déroulé de la réalisation de la \nspécification en questions : \n\nQuels ont été les moments clés?\nComment j’ai abordé les différents aspects du développement?\nComment j’ai agi, par rapport à mes compétences, sur la partie graphique, la partie code front end et code backend.\nQuels leçon j’en ai retiré?\n\n\nEnsuite, dans une deuxième partie, je détaillerais une série de conseils et d’avis pour se mettre dans une position d’évolution :\nPratiques simples à mettre en oeuvre\nCommuniquer auprès des équipes et des responsables.\nRéduire sa dette de compérence\nEt enfin je conclurai par une invitation à les mettre en place dès le lundi matin suivant.",
+    "type": "Conférence",
+    "bio": "Je trouvais difficile de me définir avant de découvrir le mot geek, depuis je revendique ce titre. Passionné de technologies et d’informatique c’est tout naturellement que j’ai abordé le tournant du web a la fin du siècle dernier.\n\nPar la suite, après un écart dans la téléphonie, j’ai été successivement : consultant, formateur, papa une première fois, ingénieur de développement, expert technique, chef de projet technique, papa une deuxième fois.\n\nAujourd’hui je suis Lead Developer pour la société talkSpirit, un éditeur de solution web et je trace ma voie vers la perfection sans l'atteindre. En chemin je partage ce que j'ai découvert pour que celà profite à d'autres.",
+    "email": "brice.favre@gmail.com",
+    "job": "lead developpeur",
+    "company": "talkSpirit",
+    "theme": "Agile (Organisation, Dev Ops, Backlog, Bonnes pratiques)",
+    "format": "Quickie (15 min) - 20 sessions",
+    "twitter": "briceatwork",
+    "blog": "http://pelmel.org/",
+    "sharing": "J'autorise le partage de mes informations",
+    "level": "Débutant"
+
+  },
+  {
+
+    "proposaldate": "2014-06-24T16:23:02.000Z",
+    "speaker": "Kévin Maccioni",
+    "title": "Agilité : la fin du middle management?",
+    "description": "L'agilité a le vent en poupe aux seins des sociétés de services, et nombreuses sont celles qui ont tenté une transformation pour approcher un modèle culturel et organisationnel correspondant plus à leur attentes. Mais trop nombreux sont encore les chefs de projets laissés sur le côté et qui ne trouvent plus leur place face à des équipes pluridisciplinaires, autonomes et responsabilisées.\nEst-ce que le middle management est amené à disparaître? Ou doit-il changer son périmètre et son type d'action?\nDu manager décisionnaire au servant leader, le processus de prise de conscience face au changement semble inévitable pour la survie du middle management!",
+    "explaination": "40 min de présentation articulées autour de la problématique du middle management : \n- quels en sont les acteurs?\n- dans quel contexte évolue-t-il?\n- quels sont les problèmes qu'il rencontre?\n- quelles sont les actions à mener pour survivre à la transformation agile?\n\n10 min de question-réponses",
+    "type": "Conférence",
+    "bio": "Arrivé en tant que chef de projet au sein de la société Public-Idées, j'ai du m'adapter et et adapter mon management face à la transformation Agile opérée il y a 3 ans maintenant.\nJ'ai avant tout pris les rôles de Scrum Master puis de PO, avant de récupérer un rôle de manager, orienté dans l'accompagnement des équipes.",
+    "email": "kevin.maccioni@public-idees.com",
+    "job": "Coach Agile",
+    "company": "Public-Idées",
+    "cospeaker": "- Fabien Barbaud, CTO Public-Idées, fabien.barbaud@public-idees.com",
+    "theme": "Agile (Organisation, Dev Ops, Backlog, Bonnes pratiques)",
+    "format": "Conférence (45 min) - 16 sessions",
+    "needs": "un vidéo projecteur\nun pc portable ou autre support de diffusion accueillant une présentation powerpoint (pptx)",
+    "twitter": "@kmaccioni",
+    "blog": "http://www.agileteam.fr/",
+    "sharing": "J'autorise le partage de mes informations",
+    "level": "Confirmé"
+
+  },
+  {
+
+    "proposaldate": "2014-06-26T14:25:15.000Z",
+    "speaker": "jean vilain",
+    "title": "management agile",
+    "description": "Description d'une approche agile pour développer la compétitivité et le développement de l'entreprise en s'appuyant sur 3 leviers; le positionnement stratégique, l'implication des équipes et les outils du management agile",
+    "explaination": "déroulement de la conférence\n- le besoin exprimé pat les dirigeants lors des enquêtes\n- objectifs de la démarche\n-les étapes de la démarche\n- les étapes du questionnement stratégique; développer ses ponis forts, monter en gamme, l'élargissement géographique, constituer une gamme, des solutions alternatives\n- les étapes de l'implication des équipes; donner un cadre structurant et de l'autonomie à l'intérieur du cadre\n_ les outils du management agile: prendre conscience de l'inconscient et utiliser les 5 comportements des leaders X10 de jim collins; le comportement paradoxal de l'être humain et le ET, l'élargissement des choix, l'orientation solutions\nconclusion",
+    "type": "Conférence",
+    "bio": "Formation ingénieur, 10 ans EUREQUIP société pionnière à partir de 1960 en stratégie et management (DG Hervé SERYEX), 25 ans DRH à appliquer ces démarches, puis créateur d'EFFICIENT-MANAGEMENT pour mettre en oeuvre ces démarches en entreprise",
+    "email": "jvilain@efficient-management.fr",
+    "job": "gérant",
+    "company": "efficient-management sarl",
+    "theme": "Agile (Organisation, Dev Ops, Backlog, Bonnes pratiques)",
+    "format": "Conférence (45 min) - 16 sessions",
+    "needs": "rétroprojecteur uniquement, je viens avec mon PC",
+    "sharing": "J'autorise le partage de mes informations",
+    "level": "Débutant"
+
+  },
+  {
+
+    "proposaldate": "2014-06-30T07:06:38.000Z",
+    "speaker": "Bruno MERMET",
+    "title": "Je ne serai plus jamais \"null\"",
+    "description": "La présence de références \"null\" dans un code java est souvent source de nombreux bugs et de nombreuses lourdeurs dans le code. Aussi, il est important, dans la mesure du possible, de réduire au strict minimum la présente de telles références.\nPour ce faire, on peut notamment utiliser 2 techniques intéressantes : le design pattern \"cas particulier\" d'une part, et, à partir de java 8, la classe \"Optional\".\nEn partant d'exemples concrets, je montrerai comment il est possible de re-factorer un code pour limiter ces références \"null\".",
+    "explaination": "Tout est dans la description ou presque ! je partirai d'un ou 2 exemples de code avec un certain nombre de références à null, et je montrerai comment, avec un bon refactoring, on peut supprimer l'essentiel de ces références. Je montrerai également comment le refactoring des tests permet d'effectuer ces modifications rapidement et sans danger.\n",
+    "type": "Live-coding",
+    "bio": "1995 : Inénieur ESIAL (devenu Telecom Nancy)\n1997 : Thèse à Nancy sur la vérification formelle de systèmes distribués\n1999 : Maître de conférences au Havre, Chercheur au GREYC\nDomaines d'enseignements très variés, notamment Génie Logiciel avec depuis quelques années une forte orientation Test, Qualité de Code et Agilité",
+    "email": "Bruno.Mermet@univ-lehavre.fr",
+    "job": "Enseignant-Chercheur",
+    "company": "Université du Havre",
+    "theme": "Agile (Organisation, Dev Ops, Backlog, Bonnes pratiques)",
+    "format": "Conférence (45 min) - 16 sessions",
+    "needs": "Un vidéo-projecteur devrait me suffire",
+    "sharing": "J'autorise le partage de mes informations",
+    "level": "Confirmé"
+
+  },
+  {
+
+    "proposaldate": "2014-07-03T10:10:00.000Z",
+    "speaker": "Nicolas Saillard",
+    "title": "Agilité en SSII",
+    "description": "L'Agilité est de plus en plus présente dans notre monde du développement, mais comment rester Agile dans le cadre d'un contrat avec un engagement financier.\nEst-ce que l'Agilité et la SSII, qui sont en beaucoup de points opposés, peuvent finalement se trouver une place l'un par rapport à l'autre.",
+    "explaination": "L'objectif est d'ouvrir une réflexion et de proposer des solutions sous forme de retour d'expérience afin d'appliquer et d'adapter les pratiques Agiles dans le monde de la SSII et plus généralement dans un contexte client / fournisseur avec des liens contractuels.\nLe déroulement : introduction à l'Agilité, présentation des contraintes SSII, présentation de solutions d'organisation qui fonctionnent, propositions de notions de contrats, retours d'expériences concrets.",
+    "type": "Conférence",
+    "bio": "CEO & associé chez Coaxys\n\nParcours :\nDéveloppeur NTIC chez des éditeurs Normands : 6 ans\nDécouverte de la SSII et de l’Agilité en 2006\nUn mélange de Directeur Technique, Delivery Manager ou encore Responsable de Centre de Services depuis 5 années\n\nMotivations :\nLivrer le bon produit au bon client (malgré le contrat…)\nCréer une ambiance de travail : Sérénité, Expertise, Confiance\n\nPassions :\nLa musique et le sport d’équipe, quel rapport ?...\n",
+    "email": "nicolas.saillard@coaxys.com",
+    "job": "CEO",
+    "company": "Coaxys",
+    "theme": "Agile (Organisation, Dev Ops, Backlog, Bonnes pratiques)",
+    "format": "Conférence (45 min) - 16 sessions",
+    "twitter": "@nikosaillard",
+    "sharing": "J'autorise le partage de mes informations",
+    "level": "Confirmé"
+
+  },
+  {
+
+    "proposaldate": "2014-07-18T13:00:47.000Z",
+    "speaker": "BETTY MOREAU",
+    "title": "Des SSII aux SSIII ?",
+    "description": "Aujourd'hui vous, développeurs, n'êtes souvent que des Ressources Humaines au service des SSII renommées ESN depuis 2013... Vos expériences au sein de ces Entreprises sont plus ou moins bonnes/mauvaises. Quelles seraient les modifications à apporter pour que ces Entreprises soient AU Service des Individus de l'Ingénierie Informatique ? \nEt s'il ne tenait qu'à vous de faire une \"Inversion de Contrôle\" ?\n",
+    "explaination": "Contenu: \nTour d'horizon du fonctionnement des ESN (SSII)\nProjection : Vers les SSII de demain (des SSIII ?) ou vers un choix de Travail Indépendant ? Les avantages et inconvenients des deux propositions\n\nPourquoi vous faire cette proposition ? \nParce que le sujet, présenté en association avec Aude Amarrurtu en Avril 2014 lors de Devoxx Fr (visible sur Parley's - http://www.parleys.com/play/53628ff8e4b04bb59f5026ee/chapter0/about) a été bien accueilli. Les commentaires qui ont suivi la présentation ont permis de l'ajuster et l'étayer.\n",
+    "type": "Conférence",
+    "bio": "A des études d'infirmière ont succédé 15 années de promotion immobilière.\nEn parallèle, j'ai suivi de nombreuses formations liées au développement personnel et enseigné la morphopsychologie au CUCM de Lille, ou j'ai également animé des conférences sur les Relations Interpersonnelles.\nFormée en Coaching, morphopsychologie, psychologie générale, psychopathologie, PNL, AT, gestuele, j'ai décidé en 2008 de créer ADR&Com. J'interviens aujourd'hui en formation (sujets RH) et en gestion de conflits au sein des entreprises. Je démarre également une activité de Soutien Administratif aux Travailleurs Indépendants.\n",
+    "email": "betty.moreau@adretcom.fr",
+    "job": "Gérante",
+    "company": "SFM",
+    "theme": "Agile (Organisation, Dev Ops, Backlog, Bonnes pratiques)",
+    "format": "Conférence (45 min) - 16 sessions",
+    "twitter": "@AdretCom",
+    "blog": "www.adretcom.fr",
+    "sharing": "J'autorise le partage de mes informations",
+    "level": "Débutant"
+
+  },
+  {
+
+    "proposaldate": "2014-07-26T23:30:19.000Z",
+    "speaker": "Jérémie Lagarde",
+    "title": "Monitoring avec JBoss RHQ, un œil sur vos applications en production",
+    "description": "Etre attentif au comportement de nos applications en production permet de mieux connaître notre code. Conserver et étudier les métriques devient une nécessité pour les équipes de développement.\nL'architecture à base de plugins de JBoss RHQ peut s'adapter à tout type de serveurs et d'applications. \nNous allons voir comment celui-ci nous permet d'inspecter nos applications et d'être alerté en cas de changement de comportement. Suivre les mesures pouvant identifier les parties de code suspectes ou à améliorer et réaliser son propre plugin simplement.\n",
+    "explaination": "Cette session a pour objectif de donner un premier tour d'horizon de l'outil JBoss RHQ et de présenter mon retour d’expérience sur l’intérêt du monitoring de production pour les équipes de développement.\n",
+    "type": "Conférence",
+    "bio": "Jérémie Lagarde est responsable technique depuis 2004 dans le domaine de l’assurance. L'intégration continue, la revue de code et les tests sont son quotidien. L'amélioration des logiciels comme des équipes est son principal objectif.\n",
+    "email": "jer@printstacktrace.org",
+    "theme": "Agile (Organisation, Dev Ops, Backlog, Bonnes pratiques)",
+    "format": "Conférence (45 min) - 16 sessions",
+    "needs": "Internet et vidéo projecteur",
+    "twitter": "@printstacktrace",
+    "blog": "printstacktrace.org",
+    "sharing": "J'autorise le partage de mes informations",
+    "level": "Débutant"
+
+  },
+  {
+
+    "proposaldate": "2014-07-27T22:15:24.000Z",
+    "speaker": "Ly-Jia Goldstein",
+    "title": "Faire la conception en équipe sans architecte, non mais allô quoi ?",
+    "description": "\"Les équipes s'auto-organisent afin de faire émerger les meilleures architectures, spécifications et conceptions.\" C'est sur ce principe du manifeste agile que se base la notion d'équipe auto-organisée de Scrum. En pratique, beaucoup d'entreprises qui ont mis en place Scrum gardent leurs architectes dans leurs tours d'ivoire.\n\nC'est une décision normale car peut-on imaginer qu'une équipe puisse concevoir une architecture ? Et puis soyons sérieux, est-ce qu'un design par des développeurs pourrait être meilleur que celui d'un architecte ? Qu'allez-vous faire de vos architectes sinon ?\n\nÀ travers un retour d'expérience, nous verrons qu'effectivement confier l'architecture aux équipes n'est pas rentable si ce n'est pas fait intelligemment. En revanche, si la conception en équipe est bien maîtrisée, les bénéfices iront bien au-delà du cercle des développeurs. Nous identifierons également quelques pièges à éviter et des astuces pour faciliter la conception en équipe.",
+    "explaination": "La question du rôle de l'architecte dans une équipe s'est posée pour tous ceux qui ont eu l'occasion de travailler avec Scrum. Cette présentation donne des éléments de réponse en montrant que la conception collective sans passer par un architecte attitré est possible. \n\nLa session se décompose en trois parties :\n- Définitions d'architecture et d'architecte\n- Retour d'expérience sur une équipe de développeurs responsable de la conception (y compris l'architecture)\n -- Contexte : Scrum, XP, binômage et pas d'architecte dans l'entreprise. Malgré les bonnes pratiques/méthodologies, l'architecture est héréroclite, et il n'y a pas de documentation, car l'équipe se pense agile.\n -- Plusieurs cas concrets d'obstacles et de leurs résolutions par ordre de complexité \n -- À l'arrivée, une vision technique claire est partagée au sein de l'équipe et même en dehors de l'équipe. \n- Au-delà du REX / Rétrospective \n -- En quoi est-il intéressant que l'équipe soit son propre architecte ?\n -- Scalabilité : est-ce que la conception en équipe pourrait marcher sur de gros SI ?\n -- Et si c'était à refaire, quelles autres solutions l'équipe aurait pu choisir ? \n -- Si l'architecte n'est théoriquement plus nécessaire pourquoi existe-il encore ?\n\nNB : cette présentation a été jouée au BreizhCamp à Rennes (mai 2014) ",
+    "type": "Conférence",
+    "bio": "Je suis une artisane-développeuse depuis 2008, et également une fangirl des bonnes pratiques qui se finissent par DD (TDD, BDD et DDD). Même si j'ai eu la chance d'être une ScrumMaster pendant mon parcours, je reste plutôt XP dans l'âme et je m'intéresse au mouvement \"Software Craftsmanship\". Je co-organise avec Bernard Notariani le user group \"eXtreme Programmers Paris\". Et accessoirement j'adore les jeux vidéo musicaux et rétros !",
+    "email": "hello@lyjia.net",
+    "job": "Artisane-Développeuse",
+    "company": "Arolla",
+    "theme": "Agile (Organisation, Dev Ops, Backlog, Bonnes pratiques)",
+    "format": "Conférence (45 min) - 16 sessions",
+    "needs": "Vidéo-projecteur",
+    "twitter": "@Ly_Jia",
+    "blog": "http://www.lyjia.net",
+    "sharing": "J'autorise le partage de mes informations",
+    "level": "Confirmé"
+
+  },
+  {
+
+    "proposaldate": "2014-07-29T13:08:42.000Z",
+    "speaker": "Julien Dubois",
+    "title": "Drupal et Scrum - 2 très bon amis",
+    "description": "Dans cette session nous allons voir en quoi Drupal et Scrum sont faits pour s'entendre. Drupal est un CMS autour duquel gravite tout un écosystème qui permet d'étendre ses capacités et Scrum est friand du principe d'itérations dans lequel nous allons tester des choses puis décider si nous devons aller plus loin.\nDrupal est donc un outil adapté à une mise en oeuvre selon Scrum.\nNous allons revoir dans cette session les principes de Scrum et comment s'appuyer sur Drupal pour maximiser notre valeur ajoutée.",
+    "explaination": "Cette session sera entre débutant et confirmé, j'ai déjà donné cette conférence plusieurs fois mais je l'adapterai pour n'en garder que le meilleur.",
+    "type": "Conférence",
+    "bio": "Utilisateur de Drupal depuis 2008, j’ai fait mes armes comme développeur chez Commerce Guys puis me suis mis à encadrer les nouveaux arrivants avant de donner des formations, participer aux avant ventes et accompagner les équipes au passage à Scrum.\n\nJe suis impliqué dans la communauté française de Drupal depuis 2009, j’ai été tour à tour président puis vice-président de l’association Drupal France et francophonie entre 2011 et 2013.\n\nJ’interviens également dans des conférences techniques pour parler de Drupal et de l’agilité.",
+    "email": "julien@happyculture.coop",
+    "company": "Happyculture",
+    "theme": "Agile (Organisation, Dev Ops, Backlog, Bonnes pratiques)",
+    "format": "Conférence (45 min) - 16 sessions",
+    "twitter": "Artusamak",
+    "sharing": "J'autorise le partage de mes informations",
+    "level": "Confirmé"
+
+  },
+  {
+
+    "proposaldate": "2014-07-31T11:41:24.000Z",
+    "speaker": "Matthieu Fronton",
+    "title": "openssl - the lost guide",
+    "description": "Tout le monde a déjà eu à manipuler des certificats.\nTout le monde comprend plutôt bien le principe de clés privées / clés publiques.\nTout le monde a déjà touché de près ou de loin à du PEM, DER, PKCS12, X509, etc... \n\nPourtant, \n\nRares sont les personnes qui connaissent vraiment de quoi il retourne derriere chaque acronyme.\nRares sont les personnes capables d'utiliser openssl sans copier/coller une commande-qui-semble-bonne après une recherche Google\n\nCette session propose de traiter ce problème selon 3 axes :\n- Formats : Désambiguïsation définitive de tous ces termes barbares..... (\"Aaah je savais pas !\")\n- Outils : Comprendre la logique de l'outil openssl pour enfin être autonome et être celui qui est copié... (\"Aaah ok ! Hmm c'est un tordu mais une fois qu'on le sais...\")\n- Exercice : Mise en pratique, création de certificats, conversion de clés, etc. (\"Oh j'ai trouvé. Et sans Google !\")",
+    "explaination": "* Contenu : \nvoir la description à destination de l'auditoire\n\n* Déroulement\n30/35min de slides pour les parties 1 et 2 (\"Formats\" et \"Outils)\n10/15min d'atelier pour la partie 3 (\"Exercice\")",
+    "type": "Atelier",
+    "bio": "Full Time Digitaloholic",
+    "email": "m@tthieu.fr",
+    "job": "Consultant Technique Senior",
+    "company": "Ekino",
+    "theme": "Agile (Organisation, Dev Ops, Backlog, Bonnes pratiques)",
+    "format": "Conférence (45 min) - 16 sessions",
+    "needs": "Video projecteur\nInternet pour l'auditoire (atelier)",
+    "twitter": "frntn",
+    "sharing": "J'autorise le partage de mes informations",
+    "level": "Confirmé"
+
+  },
+  {
+
+    "proposaldate": "2014-07-31T13:31:53.000Z",
+    "speaker": "Nicolas Ledez",
+    "title": "DDD et vertical slicing avec Docker",
+    "description": "Une bonne grosse application à mettre en production est toujours un plaisir. Surtout quand les développeurs adorent maintenir ce gros truc immonde.\n\nHaja, va vous expliquer comme casser votre application en petits composants unitaires.\n\nEt Nicolas comment pousser tout ça en production dans du Docker.\n\nNous allons donc aborder les sujets DDD (Domain Driven Developpement), le vertical slicing puis Docker et comment coller tout ça ensemble.\n\nPrévoyez de l'aspirine :)",
+    "explaination": "Nous allons faire une conférence avec un mélange de slides puis de démo. Mélangeant les compétences d'un développeur avec celles d'un ops. Du vrai DevOps quoi :)",
+    "type": "Conférence",
+    "bio": "Nicolas Ledez est administrateur système chez Cozy Cloud.\n\nDe formation industrielle puis informatique, il travaille dans l’IT depuis 13 ans.\n\nIl anime également les Devcamp de Rennes, le forum Grafotech \"Cloud\", le groupe DevOps.\n\nSes développements sont surtout réalisés pour automatiser les tâches rébarbatives.\n\nIl code en principalement Ruby. Vous pouvez également le retrouver sur son blog http://blog.ledez.net/",
+    "email": "nicolas@ledez.net",
+    "job": "Administrateur système",
+    "company": "Cozy Cloud",
+    "cospeaker": "Haja Rambelontsalama, est architechte logiciel chez Orange Application for Business.\n\nFéru de nouvelle technologie et adeptes des bonnes pratiques de développements. Il évangélise autour de Git, Agilité, DDD, etc.",
+    "theme": "Agile (Organisation, Dev Ops, Backlog, Bonnes pratiques)",
+    "format": "Conférence (45 min) - 16 sessions",
+    "needs": "Un vidéo projeteurs, un accès Internet non filtré ou de la 3G dans la salle, et du public :)",
+    "twitter": "nledez",
+    "blog": "blog.ledez.net",
+    "sharing": "J'autorise le partage de mes informations",
+    "level": "Confirmé"
+
+  },
+  {
+
+    "proposaldate": "2014-07-31T15:40:11.000Z",
+    "speaker": "Stéphane Leclercq",
+    "title": "L'analyse de code au service de la qualité",
+    "description": "La qualité du code est au coeur des discussions entre développeurs et est aujourd'hui une demande forte de la part des décideurs et des clients en France.\nQue représente la \"qualité\" aujourd'hui ? Quels sont les enjeux pour les équipes ?\nQuelles sont les approches autour de l'analyse de code pour améliorer cette qualité ?\nSont abordés : \n - Le pair programming\n - L'analyse statique\n - La revue de code\n - L'audit de code\nLa session passe en revue les avantages et points d'attention de chaque approche, ainsi que les outils couramment utilisés.\nLe tout se basera également sur un retour d'expérience (équipe de 15 devs Java) avec un focus sur la piste que nous avons privilégiée : Phabricator (audit de code)",
+    "explaination": "Le talk présente dans cet ordre \n - Définition de ce que l'on entend par qualité du code\n - Les enjeux pour les équipes\n - Le pair programming\n - L'analyse statique (petite démo Sonar)\n - La revue de code\n - L'audit de code\n - Démo Phabricator\n - Retour d'experience Phabricator au sein d'Ekino",
+    "type": "Conférence",
+    "bio": "Depuis plus de 10 ans dans les tranchées du code et toujours pas prêt à lâcher son IDE, Stéphane arpente les couloirs des agences web pour réduire les écarts entre faire mieux, plus vite et moins cher.\nAmateur de geekeries et papa de trois grumeaux, il jongle afin de bien optimiser ses journées de 50 heures tout en profitant de ses passions.\nChez Ekino depuis 4 ans, il accompagne maintenant ses équipes et clients en tant qu'Architecte Java pour répondre toujours mieux à leurs problématiques.",
+    "email": "leclercq@ekino.com",
+    "job": "Architecte Java",
+    "company": "Ekino",
+    "theme": "Agile (Organisation, Dev Ops, Backlog, Bonnes pratiques)",
+    "format": "Conférence (45 min) - 16 sessions",
+    "needs": "De préférence internet pour les démos",
+    "twitter": "@s_leclercq",
+    "blog": "http://www.ekino.com/blog/",
+    "sharing": "J'autorise le partage de mes informations",
+    "level": "Débutant"
+
+  },
+  {
+
+    "proposaldate": "2014-07-31T15:53:37.000Z",
+    "speaker": "Stéphane Leclercq",
+    "title": "L'audit de code avec Phabricator",
+    "description": "La qualité du code est au coeur des discussions entre développeurs et est aujourd'hui une demande forte de la part des décideurs et des clients en France.\nL'audit de code est un excellent moyen d'augmenter la qualité du code, les compétences et l'expertise des équipes projet.\nLe quickie présente un retour d'expérience (équipe de 15 devs Java) sur l'audit de code avec un focus sur l'outil que nous avons privilégié : Phabricator",
+    "explaination": "Ce talk est une sous partie de mon autre de 45 minutes \"L'analyse de code au service de la qualité\".\nJe peux faire l'un ou l'autre, faire les deux ne serait pas très intéressant à priori (ou alors il faut que je modifie les présentations).\n\nLe talk présente dans cet ordre \n - Définition de ce que l'on entend par qualité du code (très rapide)\n - L'audit de code (très rapide)\n - Démo Phabricator (environ 5 minutes)\n - Retour d'experience Phabricator au sein d'Ekino (environ 5 minutes)",
+    "type": "Conférence",
+    "bio": "Depuis plus de 10 ans dans les tranchées du code et toujours pas prêt à lâcher son IDE, Stéphane arpente les couloirs des agences web pour réduire les écarts entre faire mieux, plus vite et moins cher.\nAmateur de geekeries et papa de trois grumeaux, il jongle afin de bien optimiser ses journées de 50 heures tout en profitant de ses passions.\nChez Ekino depuis 4 ans, il accompagne maintenant ses équipes et clients en tant qu'Architecte Java pour répondre toujours mieux à leurs problématiques.",
+    "email": "leclercq@ekino.com",
+    "job": "Architecte Java",
+    "company": "Ekino",
+    "theme": "Agile (Organisation, Dev Ops, Backlog, Bonnes pratiques)",
+    "format": "Quickie (15 min) - 20 sessions",
+    "needs": "De préférence internet pour la démo",
+    "twitter": "@s_leclercq",
+    "blog": "http://www.ekino.com/blog/",
+    "sharing": "J'autorise le partage de mes informations",
+    "level": "Débutant"
+
+  },
+  {
+
+    "proposaldate": "2014-07-31T19:24:42.000Z",
+    "speaker": "Frédéric Menou",
+    "title": "Saga inachevée d'un développeur",
+    "description": "J'ai d'abord appris un langage, sur ma calculatrice. J'ai découvert des bibliothèques, des systèmes (OS, base de données) et des protocoles (réseau, sérialisation, compression). Bref, j'ai commencé par apprendre à maîtriser la matière que l'on manipule.\n\nPuis j'ai appris à me servir d'outils ; j'ai découvert des méthodes, dû travailler en équipe. J'ai commencé à apprendre mon métier.\n\nPuis j'ai appris à faire apprendre. Du moins je crois...\n\nOn n'a jamais fini d'apprendre ; mais je peux essayer de partager ce que j'ai appris après une quinzaine d'années fructueuses dans cet univers.",
+    "explaination": "Je souhaite expliquer mon parcours, non par orgueil, mais par souci de partage. J'y parle de pratiques de développement, parfois de technique, parfois de relations humaines, bref de mon métier de développeur.",
+    "type": "Conférence",
+    "bio": "Développeur chez Capitaine Train, également 'formateur git', Frédéric accompagne les développeurs sur le chemin du Clean Code. Il est également Bagger sur la région parisienne (brownbaglunch.fr).",
+    "email": "frederic.menou@gmail.com",
+    "job": "Développeur",
+    "company": "Capitaine Train",
+    "theme": "Agile (Organisation, Dev Ops, Backlog, Bonnes pratiques)",
+    "format": "Quickie (15 min) - 20 sessions",
+    "needs": "Aucun, diapositives hors ligne",
+    "twitter": "ptit_fred",
+    "sharing": "J'autorise le partage de mes informations",
+    "level": "Débutant"
+
+  },
+  {
+
+    "proposaldate": "2014-08-01T06:44:27.000Z",
+    "speaker": "Nicolas Ledez",
+    "title": "\"Infrastructure as code\" avec Chef",
+    "description": "Vous avez besoin d'une stratégie pour déployer votre infrastructure ? Je vais vous donner une méthode qui vient du monde du développement. Dans le but d'avoir une plate-forme stable.\nDécrivez ce dont vous avez besoin dans votre future recette \"Je veux un serveur HTTP\" est testez avec un outil du type BDD (Développement Piloté par les Fonctionnalités).\nMaintenant, vous allez devoir de décrire (avec un langage de plus bas niveau) les prérequis dont vous avez besoin pour cette fonctionnalité (vérifier si NGINX est installé).\nVous basculez donc dans le mode TDD (Développement Piloté par les Tests). Quand votre recette est prête, vous allez l'ajouter à votre gestionnaire de sources. Et votre système d'Intégration Continue va tester votre recette à chaque mise à jour.\n\nComme pour un système de développement. Je vous l'ai dit “Infrastructure as code”",
+    "explaination": "Slides pour expliquer le fonctionnement de Chef. Puis un rappel de TDD. Puis déroulé d'un exemple en slides. Plus démo qui marche - ou pas :)",
+    "type": "Conférence",
+    "bio": "Nicolas Ledez est administrateur système chez Cozy Cloud.\n\nDe formation industrielle puis informatique, il travaille dans l’IT depuis 13 ans.\n\nIl anime également les Devcamp de Rennes, le forum Grafotech \"Cloud\", le groupe DevOps.\n\nSes développements sont surtout réalisés pour automatiser les tâches rébarbatives.\n\nIl code en principalement Ruby. Vous pouvez également le retrouver sur son blog http://blog.ledez.net/",
+    "email": "nicolas@ledez.net",
+    "job": "Administrateur système",
+    "company": "Cozy Cloud",
+    "theme": "Agile (Organisation, Dev Ops, Backlog, Bonnes pratiques)",
+    "format": "Conférence (45 min) - 16 sessions",
+    "twitter": "nledez",
+    "blog": "blog.ledez.net",
+    "sharing": "J'autorise le partage de mes informations",
+    "level": "Débutant"
+
+  },
+  {
+
+    "proposaldate": "2014-08-01T06:46:54.000Z",
+    "speaker": "Nicolas Ledez",
+    "title": "Y sont pas cher mes tests !",
+    "description": "C'est marrant tout, le monde est convaincu que les tests apportent beaucoup. Mais une fois le projet à livrer, les tests deviennent moins importants.\n\nEffectivement pour 55 lignes de codes, j'ai 150 lignes de tests.\n\nSauf que votre méthode de calcul n'est pas la bonne.\n\nVenez m'écouter et à la fin de la session, vous serez convaincu de passer au TDD.\n\nÀ vous les joies du code maitrisé !",
+    "explaination": "Slides pour expliquer le pourquoi de la chose. Puis démo pour montrer que ça marche pour de vrai. Et forcement comme dans toutes mes présentations questions-réponses.",
+    "type": "Conférence",
+    "bio": "Nicolas Ledez est administrateur système chez Cozy Cloud.\n\nDe formation industrielle puis informatique, il travaille dans l’IT depuis 13 ans.\n\nIl anime également les Devcamp de Rennes, le forum Grafotech \"Cloud\", le groupe DevOps.\n\nSes développements sont surtout réalisés pour automatiser les tâches rébarbatives.\n\nIl code en principalement Ruby. Vous pouvez également le retrouver sur son blog http://blog.ledez.net/",
+    "email": "nicolas@ledez.net",
+    "job": "Administrateur système",
+    "company": "Cozy Cloud",
+    "theme": "Agile (Organisation, Dev Ops, Backlog, Bonnes pratiques)",
+    "format": "Conférence (45 min) - 16 sessions",
+    "twitter": "nledez",
+    "blog": "blog.ledez.net",
+    "sharing": "J'autorise le partage de mes informations",
+    "level": "Débutant"
+
+  },
+  {
+
+    "proposaldate": "2014-06-02T13:39:13.000Z",
+    "speaker": "DuyHai DOAN",
+    "title": "Cassandra, les meilleurs use cases et pire anti-patterns en production",
+    "description": "Dans cette session, vous verrez les meilleurs use-cases de Cassandra vus en production (Rate Limiting/Anti Fraud, Validation de compte, token de sécurité ...).\n\n Je reviendrai également sur les anti-patterns fréquemment rencontrés et nous verrons comment les éviter ou les contourner astucieusement.\n ",
+    "explaination": "Ce talk est un retour d'expérience patterns/anti-patterns vus en production.\n\n Mes références de talks:\n\n2014 Aout Cassandra rapid prototyping with Achilles à NoSQLNow! 2014 : http://nosql2014.dataversity.net/sessionPop.cfm?confid=81&proposalid=6364\n\n2014 Mai Cassandra, retour vers le future à BreizhCamp: http://us3.campaign-archive2.com/?u=c755301bcda62df78e338c60f&id=b7084ad622 \n\n2014 Avril. Techniques de modélisation avancée avec Cassandra à Devoxx France: http://goo.gl/8WHZsg \n\n2013 Octobre Lightning talk sur Achilles à Cassandra Summit Europe 2013: http://goo.gl/ptNbkA ",
+    "type": "Conférence",
+    "bio": "Développeur Java depuis toujours, je me suis passionné pour le domaine du Big Data et plus particulièrement pour Cassandra depuis plusieurs années. Je fais régulièrement des présentations pour vulgariser l'utilisation de Cassandra au plus grand nombre.\n\nLa journée, je participe au projet Libon, le Viber/WhatsApp du groupe Orange en utilisant Cassandra comme solution NoSQL.\n\nLe soir, je code sur Achilles, un object mapper pour rendre le développement sur Cassandra encore plus aisé et productif (approche TDD, génération du schéma, request tracing ...)",
+    "email": "doanduyhai@gmail.com",
+    "job": "Consultant Cassandra en freelance",
+    "company": "ARCHINNOV INFO",
+    "theme": "Innovation (big data, no sql, objets connectés, machine learning, ...).",
+    "format": "Conférence (45 min) - 16 sessions",
+    "twitter": "@doanduyhai",
+    "sharing": "J'autorise le partage de mes informations",
+    "level": "Débutant"
+
+  },
+  {
+
+    "proposaldate": "2014-06-02T10:06:30.000Z",
+    "speaker": "nicolas De Loof",
+    "title": "La révolution Docker",
+    "description": "En très peu de temps, Docker a su s'imposer comme un standard de facto \ndans le monde du Cloud, ne laissant aucun fournisseur impassible. A \nmi-chemin entre IaaS et PaaS, Docker brouille les cartes et ouvre de \nnouvelles opportunités.\n\nAu cours de ce talk, nous vous \nprésenterons ce qu'est techniquement Docker, son impact sur l'écosystème\n et comment vous pouvez le mettre à profit pour vos propres \ndéveloppements.",
+    "explaination": "présentation non-technique de Docker, plus centrée sur son utilisation et les changements que celà induit en termes d'organisation (plutôt devops) et d'architecture.",
+    "type": "Conférence",
+    "bio": "Hacker",
+    "email": "nicolas.deloof@gmail.com",
+    "theme": "Innovation (big data, no sql, objets connectés, machine learning, ...).",
+    "format": "Conférence (45 min) - 16 sessions",
+    "twitter": "ndeloof",
+    "sharing": "J'autorise le partage de mes informations",
+    "level": "Débutant"
+
+  },
+  {
+
+    "proposaldate": "2014-06-02T12:45:21.000Z",
+    "speaker": "Damien Cavaillès",
+    "title": "From Dev to Maker",
+    "description": "Dans tout développeur il y a un maker.\nLes objets connectés sont facile à faire et demandent très peu de compétences particulières. Tout développeur peut se lancer dans le Arduino, le BLE, le Raspberry Pi !",
+    "explaination": "Présentation de l'univers Makers et de l'OpenSource Hardware. 20min\nComment faire son premier objet communiquant avec Arduino. Démo-code 10 min\nFaire communiquer son objet avec le BLE. Principe de base du Bluetooth Low Energy. Démos Physiques 15min",
+    "type": "Conférence",
+    "bio": "Entrepreneur et Ingénieur, Damien est tombé dans le monde des Makers lors d'une création de startup autour d'objets connectés. Sur son temps professionnel, il accompagne et développe les entreprises dans leur stratégie mobile. Il dépense son temps personnel en s'investissant pour les communautés de makers et entrepreneuriales locales, notamment par l'animation d'un StartupDigest et l'organisation du Startup Weekend Lille Makers.",
+    "email": "dam.cavailles@gmail.com",
+    "job": "Developpeur Mobile - Prototyping",
+    "company": "ikomobi",
+    "theme": "Innovation (big data, no sql, objets connectés, machine learning, ...).",
+    "format": "Conférence (45 min) - 16 sessions",
+    "needs": "Internet ! Wifi ! Ethernet si possible. On fait avec ce qu'on a !",
+    "twitter": "@thedamfr",
+    "blog": "--",
+    "sharing": "J'autorise le partage de mes informations",
+    "level": "Débutant"
+
+  },
+  {
+
+    "proposaldate": "2014-06-12T09:20:20.000Z",
+    "speaker": "Sébastien Prunier",
+    "title": "MongoDB Aggregation Framework in action !",
+    "description": "Venez découvrir l'Aggregation Framework de MongoDB le temps d'un Quickie !\nAu programme : des exemples de requêtes sur différentes collections (des geeks, des héros Marvel, des données géographiques, etc ...)\nObjectif : vous montrer la puissance de cette fonctionnalité de MongoDB !",
+    "explaination": "Déroulement assez simple. Juste un slide pour illustrer visuellement le fonctionnement du pipeline d'aggregation et ensuite des exemples de requêtes sur différents jeux de données en mode \"live coding\". Ca va de requêtes simples à des requêtes + complexes, notamment avec des données géographiques.",
+    "type": "Live-coding",
+    "bio": "Je suis Développeur chez SERLI, spécialisé dans les technologies Java, Cloud et NoSQL (MongoDB, Couchbase). Je m'intéresse également au langage Javascript côté client (Angular.js) et côté serveur (Node.js) . Vous pouvez me croiser dans différentes conférences : JUGs, Devoxx France, JugSummerCamp, BreizhCamp, Google Dev Fest ...",
+    "email": "sebastien.prunier@gmail.com",
+    "job": "Développeur",
+    "company": "SERLI",
+    "theme": "Innovation (big data, no sql, objets connectés, machine learning, ...).",
+    "format": "Quickie (15 min) - 20 sessions",
+    "needs": "N/A",
+    "twitter": "@sebprunier",
+    "blog": "http://sebprunier.wordpress.com/",
+    "sharing": "J'autorise le partage de mes informations",
+    "level": "Débutant"
+
+  },
+  {
+
+    "proposaldate": "2014-06-20T11:32:45.000Z",
+    "speaker": "Romain LOUVET",
+    "title": "Comment effectuer des tests d'intégrations sur vos applications mobiles ?",
+    "description": "Venez découvrir comment sont effectués les tests d'intégrations sur les deux applications mobiles (iOS et Android) qui figurent constamment dans le top 20 de leur store respectif !\n\nRetour d'expérience sur la création d'un \"Mobile Test Lab\"",
+    "explaination": "Présentation du framework appium utilisé pour effectuer des tests d'intégration sur Mobile.\nUtilisation dans Jenkins\nEcriture d'un cas de test en live. (besoin d'internet)\nPrésentation du Mobile Test Lab",
+    "type": "Conférence",
+    "bio": "Rouennais et développeur Java de formation, Romain LOUVET a fait ses débuts dans le test web. Parti à la conquête du mobile, il travaille maintenant au sein de Leboncoin où il a pu mettre en pratique les notions précédemment acquises lors du NormandyJUG. Il a notamment été en charge de monter le \"mobile test lab\" de Leboncoin.",
+    "email": "romain.louvet@scmfrance.fr",
+    "company": "Leboncoin",
+    "theme": "Innovation (big data, no sql, objets connectés, machine learning, ...).",
+    "format": "Quickie (15 min) - 20 sessions",
+    "needs": "Internet",
+    "twitter": "romainlouvet",
+    "blog": "www.romainlouvet.fr",
+    "sharing": "J'autorise le partage de mes informations",
+    "level": "Débutant"
+
+  },
+  {
+
+    "proposaldate": "2014-07-02T13:16:42.000Z",
+    "speaker": "Alexis Seigneurin",
+    "title": "Spark, où comment traiter des données à la vitesse de l’éclair",
+    "description": "Spark fait partie de la nouvelle génération de frameworks de manipulation de données basés sur Hadoop. L’outil utilise agressivement la mémoire pour offrir des temps de traitement jusqu’à 100 fois plus rapides.\n\nDans cette session, nous découvrirons les principes de traitement de données (notamment MapReduce) et nous analyserons les options mises à disposition pour monter un cluster (HDFS, Tachyon, Yarn…). Une démonstration sera faite pour mettre en évidence les capacités du framework. Enfin, un point sera fait sur Spark Streaming pour le traitement de données en flux continu.",
+    "explaination": "L’écosystème Hadoop est complexe et également très mouvant. Via ce talk, je cherche à rendre accessible Spark pour permettre aux développeurs de savoir faire les bons choix lorsqu’ils doivent manipuler des volumes importants de données.\n\nChez Ippon, j’anime un coding dojo sur Spark avec l’ensemble des équipes. J’ai déjà joué ce dojo avec des externes : http://blog.ippon.fr/2014/05/09/ippon-lance-les-open-coding-dojos/\n",
+    "type": "Conférence",
+    "bio": "Développeur depuis plus de 13 ans, je suis Manager Technique chez Ippon Technologies après avoir été CTO chez IDM.\n\nMes sujets favoris sont Java, Spark, Node.js, AngularJS, Vagrant...",
+    "email": "alexis@seigneurin.com",
+    "job": "Manager Technique",
+    "company": "Ippon Technologies",
+    "theme": "Innovation (big data, no sql, objets connectés, machine learning, ...).",
+    "format": "Conférence (45 min) - 16 sessions",
+    "twitter": "@aseigneurin",
+    "blog": "http://aseigneurin.github.io/",
+    "sharing": "J'autorise le partage de mes informations",
+    "level": "Confirmé"
+
+  },
+  {
+
+    "proposaldate": "2014-07-03T18:56:11.000Z",
+    "speaker": "Tristan Israël",
+    "title": "Développer du code sécurisé",
+    "description": "Développer une application, c'est répondre aux besoins exprimés par le client mais aussi voir plus loin en développant des applications sûres. Les applications que nous développons comprennent très souvent une identification, voire une authentification, une distinction entre différents profils d'utilisateurs, des webservices, des connexions à des bases de données.\nTous ces éléments sont des trous de sécurité potentiels et nécessitent, de la part du développeur et de toute l'équipe une attention particulière dès la conception, et jusqu'à la livraison de l'application.\nL'arrivée des DevOps peut permettre de faciliter ce travail et il est temps aujourd'hui d'ouvrir les yeux sur ces risques que nos programmes font courir à nos clients ou nos employeurs et nous former à la sécurité.\nJe propose à la fois de revenir sur les risques et sur les bonne pratiques de la sécurité d'une application, mais aussi sur une organisation de travail efficace, centrée sur la sécurité, même en milieu Agile.",
+    "explaination": "Cette intervention pourrait aussi être placée dans la catégorie Agile.\n\nMon propos liminaire sera consacré à un état des lieux de la sécurité en entreprise, et des différents trous de sécurité qu'on y trouve. \nParmi ces trous, puisqu'il faut en choisir un, figurent les applications développées en interne ou par des prestataires. Je prendrai un cas typique, issu de mon expérience : le développement d'une application de pilotage d'un automate en milieu industriel (ou bien un exemple de webapp Java est possible). Cette application n'avait pas été sécurisée et accédait à la base de données, j'ai découvert que plusieurs techniques de hacking permettaient d'extraire très facilement toutes les données de la base.\nAprès cette introduction, je ferai une topologie des trous de sécurité les plus courants dans une application et expliquerai quelles en sont les conséquences. Puis je montrerai quelles sont les bonnes pratiques au moment de la conception, et du développement. Un exemple de formulaire web illustrera la nécessité d'une validation rigoureuse des données saisies.\nPuis je parlerai des API tierce utilisées et de la nécessité d'en contrôler au préalable la sécurité, et les mauvaises habitudes qu'on pris les développeurs d'utiliser des versions instables des API.\nTous ces exemples sont volontairement placés à un haut niveau dans le modèle TCP pour rester accessibles et me permettront de conclure avec une proposition d'organisation de travail regroupant les sysadmin, les développeurs et éventuellement un ou plusieurs DevOps. Cette organisation permet de s'assurer, depuis la conception, jusqu'au tests, que l'application est sûre.\n\nTout le discours sera illustré, grâce à des slides, par des extraits de code source et plusieurs schémas.",
+    "type": "Conférence",
+    "bio": "Développeur depuis plus de 15 ans, j'ai commencé sur Java puis rapidement le C et le C++. Depuis les débuts de l'iPhone en 2007 je développe en Objective-C. J'ai créé plusieurs centaines d'applications commerciales et sur-mesure pour mes clients dans différents domaines (services, téléphonie, embarqué, industrie) et différents environnement (Windows, GNU/Linux, OS X, iOS, Android, routeurs). \nDepuis 2010 je suis spécialisé dans la cybersécurité et conduis des audits de sécurité qui couvrent à la fois le réseau, les systèmes et les codes sources des entreprises.\nEn 2014, j'ai écrit un ouvrage intitulé \"Maîtrisez Qt 5 : guide de développement d'applications professionnelles\" publié aux éditions ENI. Je suis aujourd'hui expert certifié en C++/Qt.",
+    "email": "tristan.israel@panoptiware.com",
+    "job": "Président",
+    "company": "Panoptiware",
+    "cospeaker": "Je n'ai pas de co-intervenant pour l'instant mais je suis ouvert à une intervention à plusieurs.",
+    "theme": "Innovation (big data, no sql, objets connectés, machine learning, ...).",
+    "format": "Conférence (45 min) - 16 sessions",
+    "needs": "Je n'ai besoin que d'un projecteur sur lequel diffuser un slide Keynote, de préférence ou Powerpoint.",
+    "twitter": "panoptinet",
+    "blog": "http://www.panoptinet.com/",
+    "sharing": "J'autorise le partage de mes informations",
+    "level": "Confirmé"
+
+  },
+  {
+
+    "proposaldate": "2014-07-20T15:03:34.000Z",
+    "speaker": "Frédéric BISSON",
+    "title": "De l’impératif au fonctionnel, retour d’expérience avec Haskell",
+    "description": "L’informatique est dominée par la programmation impérative et ses dérivées. Pourtant, d’autres paradigmes ont été développés qui permettent de s’affranchir des contraintes de la programmation impérative. Parmi ceux-ci, on trouve la programmation fonctionnelle. Cette session présente un retour d’expérience de développement avec Haskell, un langage fonctionnel pur.",
+    "explaination": "- Caractéristiques de la programmation impérative\n- Ses avantages et ses inconvénients\n- Caractéristiques de la programmation fonctionnelle\n- Ses avantages et ses inconvénients\n- Haskell, langage fonctionnel pur\n- Retour d’expérience avec le portage d’une bibliothèque à l’origine écrite en Python\n- problèmes rencontrés et bonnes surprises\n- conclusion",
+    "type": "Conférence",
+    "bio": "Webmaster dans une collectivité territoriale, développeur PHP, Bash, Python.",
+    "email": "zigazou@free.fr",
+    "theme": "Innovation (big data, no sql, objets connectés, machine learning, ...).",
+    "format": "Quickie (15 min) - 20 sessions",
+    "twitter": "@zigazou",
+    "sharing": "J'autorise le partage de mes informations",
+    "level": "Débutant"
+
+  },
+  {
+
+    "proposaldate": "2014-07-29T16:05:21.000Z",
+    "speaker": "David MARTIN",
+    "title": "API Web avec un zeste de REST",
+    "description": "REST est devenu un acronyme des plus fréquents dans l'IT. Pour autant, les principes sont rarement appliqués. Le meilleur côtoie même le pire!\nConstruire une API Web en intégrant les principes du style d'architecture REST peut pourtant être très profitable.\nPour bâtir des API évolutives et pérennes, un certain nombre de points doivent être connus. En balayant les principaux aspects du protocole HTTP,\nmais aussi des contraintes du style REST et les différentes initiatives autour des API, vous trouverez des éléments pour vous guider dans la réalisation d'API Web durables.",
+    "explaination": "Les développeurs ont beaucoup à gagner à bien connaitre HTTP et les possibilités offertes. En y ajoutant les principes architecturaux insufflés par le style d'architecture REST, développer une API durable est à portée des équipes de développement.\nSeulement, bien souvent, cet exercice est fait de façon héroïque, à la sueur du front, en tombant dans les mêmes erreurs que celles faites par d'autres...\nCe type d'architecture ne s'improvise pas. Il faut d'abord assimiler les concepts génériques et connaitre les tendances sur le sujet.\nCette conférence passe en revue les bonnes pratiques (de l'architecture au développement, en passant par la sécurité) et les pièges auxquels sont confrontés les développeurs pour leur donner les outils pour faire les bons choix.",
+    "type": "Conférence",
+    "bio": "15 ans dans l'IT en tant que développeur Java, architecte, formateur, speaker et maintenant Directeur du Pôle Conseil chez Ippon Technologies.\nDéfenseur des solutions pragmatiques et élégantes, je suis supporter des API Web et du style d'architecture REST.",
+    "email": "dmartin@ippon.fr",
+    "job": "Directeur du Pôle Conseil",
+    "company": "Ippon Technologies",
+    "theme": "Innovation (big data, no sql, objets connectés, machine learning, ...).",
+    "format": "Conférence (45 min) - 16 sessions",
+    "needs": "Une bouteille d'eau ;)",
+    "twitter": "@_dmartin_",
+    "blog": "http://blog.ippon.fr",
+    "sharing": "J'autorise le partage de mes informations",
+    "level": "Confirmé"
+
+  },
+  {
+
+    "proposaldate": "2014-07-31T19:03:34.000Z",
+    "speaker": "Stéphane Lagraulet",
+    "title": "ElasticSearch à l’épreuve du e-commerce: au delà de la recherche plein texte.",
+    "description": "Titre: ElasticSearch à l’épreuve du e-commerce: au delà de la recherche plein texte.\n\nLe moteur de recherche est une des clés de voûte sur lesquelles repose un site d’e-commerce. La moindre défaillance se ressent immédiatement sur le volume de ventes et le taux de transformation. Ce moteur doit être fiable, performant, tolérer les erreurs de saisies mais surtout guider l’utilisateur dans son choix.\n\nDans cette présentation d’ElasticSearch, nous étudierons les cas d’usage que nous avons rencontré. De la construction des index (mapping et analyseurs) à leur exploitation (recherche et agrégations), nous ferons le tour de ces cas avec des exemples de solutions.\n",
+    "explaination": "Cette présentation est un retour sur nos expériences respectives de mise en œuvre d’Elasticsearch chez nos clients. \n\nJérôme Mainaud, ancien responsable des études pour Spark Archives où il a mis en place ElasticSearch, a déjà donné trois conférences autour d’ElasticSearch et contribue régulièrement à la mailing-list francophone.\nStéphane Lagraulet, ancien architecte pour France Billet et désormais référent conseil pour Ippon Bordeaux, a réalisé des missions de conseil sur le produit ElasticSearch pour un important site de e-commerce et un éditeur de logiciels hospitaliers.\n\nLa création d’un site d’e-commerce fictif nous servira de fil conducteur et donnera un sens aux différents points abordés.\nPour permettre à chacun de suivre, nous rappellerons brièvement les bases de fonctionnement d’un moteur de recherche. Nous entrerons ensuite dans le vif du sujet avec la construction de notre index avec le mapping des données, à la fois statique et dynamique et offrant une structure arborescente.\nNous continuerons par l’exploitation des données à l’aide des agrégations dont nous présenterons les plus utiles sur un site de e-commerce.\nNous terminerons sur une check-list qui permettra aux participants de prendre leur envol avec Elasticsearch.",
+    "type": "Conférence",
+    "bio": "Après une longue expérience dans un grand groupe en tant que responsable d'équipes de développement j'ai rejoint Ippon Technologies en tant qu'architecte sur les technologies Java EE. Je suis actuellement le référent du pôle conseil et formation pour la région Sud Ouest.\n\nJe suis passioné par l'évolution de l'ecosysteme Java et par les technologies \"BigData\" permettant de stocker et analyser d'importants volumes de données en conservant résilience et disponibilité. \n\nConvaincu de la nécessité de faire évoluer certains paradigmes bien établis, je m'efforce de partager cette conviction avec mes clients en proposant des architectures souples, intuives mais avant tout pragmatiques et non dogmatiques.",
+    "email": "slagraulet@ippon.fr",
+    "job": "Architecte",
+    "company": "Ippon Technologies",
+    "cospeaker": "Jérôme Mainaud, ancien responsable des études pour Spark Archives où il a mis en place ElasticSearch, a déjà donné trois conférences autour d’ElasticSearch et contribue régulièrement à la mailing-list francophone.\nIl est actuellement architecte expert Java EE pour Ippon Paris.",
+    "theme": "Innovation (big data, no sql, objets connectés, machine learning, ...).",
+    "format": "Conférence (45 min) - 16 sessions",
+    "twitter": "stephlag",
+    "blog": "blog.ippon.fr",
+    "sharing": "J'autorise le partage de mes informations",
+    "level": "Débutant"
+
+  },
+  {
+
+    "proposaldate": "2014-06-03T10:06:32.000Z",
+    "speaker": "Pierre-Jean Vardanega",
+    "title": "Développons une application web AngularJS/Java8 dirigé par les tests",
+    "description": "Nous allons développer une application web avec AngularJS (front) et Java8 (API REST) en mode test first. à partir des besoins, nous ajouterons les fonctionnalités une par une en commençant par les tests, de la GUI jusqu'à la base de données.",
+    "explaination": "Cette présentation peut aussi être raccourcie à un Quicky. Je me contenterais alors de développer une fonctionnalité sur une application existante.",
+    "type": "Live-coding",
+    "bio": "Je suis développeur Java et agiliste depuis quelques années chez Xebia. J'adore développer des produits multi-clients web et mobile se basant sur des API REST, le tout testé et déployé automatiquement.",
+    "email": "pierrejean.vardanega@gmail.com",
+    "job": "Développeur Java",
+    "company": "Xebia",
+    "theme": "Java (Java8, Langages de la jvm, pratiques de programmation)",
+    "format": "Conférence (45 min) - 16 sessions",
+    "twitter": "@pvardanega",
+    "blog": "http://blog.xebia.fr/author/pvardanega/",
+    "sharing": "J'autorise le partage de mes informations",
+    "level": "Confirmé"
+
+  },
+  {
+
+    "proposaldate": "2014-06-03T21:33:35.000Z",
+    "speaker": "Xavier Carpentier",
+    "title": "#Restful, really ?",
+    "description": "Tout le monde dit faire ou vouloir faire une architecture de type Rest, que cela implique-t-il vraiment ?\n\nOù vous situez-vous sur le \"Richardson Maturity Model\" ? Votre API est à la fois Hypermedia et JSON, « Are you kidding ? »\n\nSi ce sont des questions qui vous taraudent l'esprit et même vous empêchent de dormir, alors venez écouter ce talk pour avoir des pistes de réflexions, des échanges et peut-être des réponses, qui sait ?",
+    "explaination": "C'est une présentation sur rest avec comme plan le Richardson Maturity Model. Avec des exemple de mauvaise et bonne pratiques.",
+    "type": "Conférence",
+    "bio": "Xavier est développeur depuis 7 ans et il est maintenant indépendant dans les domaines du web et du mobile.\n\nC’est un adepte des frameworks conventionnés (Play Scala et Ruby On Rails) ainsi que des innovations côté client comme les nouveaux frameworks MVC JavaScript du type AngularJS.\n\nBref, il se passionne pour tout ce qui gravite autour du vaste monde de la toile et par conséquent pour le style d’architecture Rest.",
+    "email": "contact@xavier-carpentier.com",
+    "job": "Développeur front & back-end",
+    "company": "Freelance",
+    "theme": "Java (Java8, Langages de la jvm, pratiques de programmation)",
+    "format": "Quickie (15 min) - 20 sessions",
+    "twitter": "https://twitter.com/xcapetir",
+    "blog": "http://blog.xavier-carpentier.com/",
+    "sharing": "J'autorise le partage de mes informations",
+    "level": "Confirmé"
+
+  },
+  {
+
+    "proposaldate": "2014-06-03T21:36:57.000Z",
+    "speaker": "Xavier Carpentier",
+    "title": "Ionic Framework : retour d'expérience",
+    "description": "Faire du dev mobile hybride c'est bien, le faire avec Ionic Framework c'est mieux !\n\nJe ferais la présentation d'une app mobile hybride qui utilise Ionic Framework pour vous montrer que Cordova, AngularJS et Grunt font bon ménage !\n\nAvec un zeste de Karma pour les tests unitaires en continue dans l'environnement de développement.\n\nEt la démonstration se fera sur simulateur iPhone iOS 7.",
+    "explaination": "Ce sera une session de Live coding pour montrer la facilité d'usage et la testabililité accrue avec Ionic, grunt et karma.",
+    "type": "Live-coding",
+    "bio": "Xavier est développeur depuis 7 ans et il est maintenant indépendant dans les domaines du web et du mobile.\n\nC’est un adepte des frameworks conventionnés (Play Scala et Ruby On Rails) ainsi que des innovations côté client comme les nouveaux frameworks MVC JavaScript du type AngularJS.\n\nBref, il se passionne pour tout ce qui gravite autour du vaste monde de la toile et par conséquent pour le style d’architecture Rest.",
+    "email": "contact@xavier-carpentier.com",
+    "job": "Développeur front & back-end",
+    "company": "Freelance",
+    "theme": "Java (Java8, Langages de la jvm, pratiques de programmation)",
+    "format": "Quickie (15 min) - 20 sessions",
+    "twitter": "https://twitter.com/xcapetir",
+    "blog": "http://blog.xavier-carpentier.com/",
+    "sharing": "J'autorise le partage de mes informations",
+    "level": "Confirmé"
+
+  },
+  {
+
+    "proposaldate": "2014-06-04T12:25:05.000Z",
+    "speaker": "Sébastian Le Merdy",
+    "title": "TDD is not dead",
+    "description": "Is TDD Dead ? Le “débat” lancé par un article de DHH l’un des créateurs du framework ruby on rails a fait le tour du web. Cela a déclenché tout un tas de réactions et débats enflammés. Une série de rencontres vidéo entre DHH, Kent Beck et Martin Fowler ont cristallisé ces débats.\nAprès un bref résumé des arguments avancés par les uns et les autres, nous allons montrer par du code pourquoi le TDD reste une technique majeure pour développer.\nOn va prendre l’exemple de code de DHH (en java8 et fluenthttp) et montrer comment on peut éviter d’arriver à l’horreur qu’il a montré tout en étant dirigé par les tests.",
+    "explaination": "Ce live coding va permettre à l’assemblée de se faire sa propre idée sur la technique du TDD sur un cas concret. Nous serons deux à coder devant l’auditoire. Le “ping-pong” sera interactif. Nous utiliserons chacun un IDE en mode présentation pour se focaliser sur le code.",
+    "type": "Live-coding",
+    "bio": "Je m'appelle Sébastian et j'aime le software craftsmanship.\nJe suis passionné par le développement et les technologies innovantes. Mon langage maternel est Java mais ça ne me dérange pas d'écrire du code dans d'autres langages comme scala ou javascript ; tant que c'est le bon outil pour la bonne tâche. J'aime bien livrer tôt et livrer souvent mon logiciel aux utilisateurs finaux en utilisant les pratiques agiles. Je teste systématiquement tout ce que j'écris : personne n'est parfait.\nVous pouvez me rencontrer dans un coding dojo ou durant une session de coding live. Je travaille chez Xebia en qualité de consultant.",
+    "email": "slemerdy@xebia.fr",
+    "job": "Consultant",
+    "company": "Xebia",
+    "cospeaker": "Éric Le Merdy\neric.lemerdy@gmail.com\n@ericlemerdy\nhttps://github.com/eric.lemerdy\nhttp://eric.lemerdy.name\nValtech\nConsultant\nJe suis un développeur agile qui aime travailler en équipe.",
+    "theme": "Java (Java8, Langages de la jvm, pratiques de programmation)",
+    "format": "Conférence (45 min) - 16 sessions",
+    "needs": "Nous avons besoin de deux projecteurs.",
+    "twitter": "@seblm",
+    "blog": "http://blog.xebia.fr/author/slemerdy",
+    "sharing": "J'autorise le partage de mes informations",
+    "level": "Confirmé"
+
+  },
+  {
+
+    "proposaldate": "2014-06-18T07:32:53.000Z",
+    "speaker": "Nicolas JOZWIAK",
+    "title": "Superviser vos actors Akka",
+    "description": "vous avez entendu parler des acteurs Akka et vous vous demandez quels types d’architectures vous pouvez mettre en place ? Comment vous pouvez les intégrer dans votre architecture ? Et aussi quelle est la courbe d’apprentissage ?\nA travers un retour d’expérience, nous répondrons à ces questions et vous montrerons comment en 3 mois nous avons mis en place une architecture basée sur Akka et Spray en Scala. Nous évoquerons les problématiques de performance et de tolérance aux pannes avec les superviseurs. Nous verrons aussi pourquoi il est important d’avoir du monitoring et de mettre en place des tests.",
+    "explaination": "A travers ce retour d'expérience, nous souhaitons montrer un type d'architecture qu'il est possible de faire avec Akka. Nous souhaitons aussi montrer que cette librairie nécessite des tests qui ne sont pas triviaux à mettre en place. Le mise en place du monitoring également qui est importante pour avoir des métriques sur les échanges de messages.",
+    "type": "Conférence",
+    "bio": "Nicolas est un ingénieur d’études confirmé disposant de 8 ans d’expérience en conception et développement sur les technologies Java/JEE. Son parcours chez un éditeur avant son entrée chez Xebia lui a notamment permis de développer de solides compétences dans le domaine de la qualité et de l’industrialisation (tests, intégration continue, gestion de configuration, contrôle qualité). Bénéficiant d’une expérience très solide de mise en place des méthodes agiles et d’accompagnement d’équipes sur le terrain, il s’attache à mettre à profit quotidiennement son expérience qui est reconnue pour son approche pragmatique, proactive et pédagogique.",
+    "email": "njozwiak@xebia.fr",
+    "job": "Consultant",
+    "company": "Xebia",
+    "cospeaker": "Rémy Auricoste",
+    "theme": "Java (Java8, Langages de la jvm, pratiques de programmation)",
+    "format": "Conférence (45 min) - 16 sessions",
+    "twitter": "@njozwiak",
+    "blog": "blog.xebia.fr",
+    "sharing": "J'autorise le partage de mes informations",
+    "level": "Confirmé"
+
+  },
+  {
+
+    "proposaldate": "2014-06-24T10:53:14.000Z",
+    "speaker": "Xavier Bucchiotty",
+    "title": "Scala, pourquoi et pourquoi pas?",
+    "description": "Tantôt merveilleux, tantôt cauchemardesque, Scala est un langage qui ne laisse pas indifférent.\n\nPourquoi toi développeur Java, tu devrais jeter un œil sur Groovy, Scala ou Haskell? Pour découvrir de nouvelles façon de résoudre tes problèmes de tous les jours.\n\nJe vous propose un tour d'horizon des possibilités du langage. Avec du code, du code et du code... et un peu de temps de compilation aussi!",
+    "explaination": "Je propose de faire un tour d'horizon des features de Scala, case class, programmation fonctionnelle, système de type, implicits. \nTout cela sous forme de prez slides + code en live...\n\nLe participant doit avoir un bon aperçu du langage, de ses capacités mais aussi de l'envie qu'il faut avoir pour l'aborder. Ce n'est pas forcément un maigre investissement en temps. Il va falloir oublier certains reflexes de programmation s'il on souhaite profiter pleinement du langage, surtout de la partie fonctionnelle.",
+    "type": "Conférence",
+    "bio": "Xavier est un développeur passionné Java/Scala chez Xebia. Il développe avec Java depuis bientôt 10 ans. Puis, il a découvert Akka et Scala en conférence il y a deux ans. Depuis, il ne cesse de creuser le sujet et de partager son enthousiasme sur cet écosystème, aussi bien en interne qu'en conférence. Cela lui permet notamment d'apporter de nouvelles solutions aux défis techniques qui lui sont posés aujourd'hui.\n\nAdepte des méthodes agiles, il est aussi un fervent défenseur des pratiques XP.",
+    "email": "xbucchiotty@xebia.fr",
+    "job": "Developpeur Java/Scala",
+    "company": "Xebia",
+    "theme": "Java (Java8, Langages de la jvm, pratiques de programmation)",
+    "format": "Conférence (45 min) - 16 sessions",
+    "twitter": "xbucchiotty",
+    "blog": "http://blog.xebia.fr",
+    "sharing": "J'autorise le partage de mes informations",
+    "level": "Débutant"
+
+  },
+  {
+
+    "proposaldate": "2014-06-24T10:56:07.000Z",
+    "speaker": "Xavier Bucchiotty",
+    "title": "Reactive Domain Driven Design",
+    "description": "L'approche \"Domain Driven Design\" nous propose de mettre le modèle métier au cœur de notre code. Il apporte plusieurs notions dont \"Aggregate\" et \"Bounded-Context\".\n\n\"Reactive\" est un buzz word qui regroupe les systèmes \"scalable\", \"resilient\", \"responsive\" et \"event-driven\".\n\nAkka est un framework sur la JVM, pour Java ou Scala. Il permet de construire plus facilement des applications en environnement concurrent et distribué.\n\nSi vous pensez qu'Hibernate est le seul moyen de faire du DDD sur la JVM, venez voir comment coder un orchestrateur de trading avec Akka et DDD, en Scala bien sûr!",
+    "explaination": "C'est une présentation Slide + Code.\n\nJe l'aurai présenté chez Xebia avant, en septembre ou octobre.\nL'idée est de mettre en avant la forte corrélation entre un environnement événementiel (Akka), un module de persistence en mode event-sourcing (akka-persistence) + la notion de bounded-context et d'agregate de DDD.\nL'agregate est responsable de l'intégrité des données qui le composent. Avec la notion de bounded-context, on parle aussi d'eventual consistency (seul les données qui sont sous ma responsabilité sont \"sûres\"). EventSourcing + DDD permet de mettre en avant le côté métier des changements d'états des objets très rapidement. Il facilite le support des applications en prod si les événements sont bien nommées et les stores \"human-friendly\".\n\nOn peut même étendre au CAP Theorem (voir talk Eric Evans à Craft.IO dernièrement http://www.infoq.com/presentations/CAP-DDD)",
+    "type": "Conférence",
+    "bio": "Voir CFP précédent",
+    "email": "xbucchiotty@xebia.fr",
+    "job": "Développeur Java/Scala",
+    "company": "Xebia",
+    "theme": "Java (Java8, Langages de la jvm, pratiques de programmation)",
+    "format": "Conférence (45 min) - 16 sessions",
+    "twitter": "xbucchiotty",
+    "blog": "http://blog.xebia.fr",
+    "sharing": "J'autorise le partage de mes informations",
+    "level": "Confirmé"
+
+  },
+  {
+
+    "proposaldate": "2014-06-24T20:19:31.000Z",
+    "speaker": "Mathieu ANCELIN",
+    "title": "Live coding: Applications web réactive avec Play 2",
+    "description": "Les applications web temps réel font usage de WebSockets, Server Sent Events, Comet et d'autres protocoles pour offrir une communication permanente entre le serveur et le navigateur. De nombreux frameworks web offrent ce genre de possibilité à travers des APIs souvent très basiques mais il n'existe souvent pas de modèle de programmation commun pour ce genre de fonctionnalité.\n\nCette présentation vous montrera comment utiliser l'API des Iteratees offerte par Play 2 pour manipuler, filtrer et fusionner à la demande des flux de données de manière réactive dans une application web fun, complète et concrète.",
+    "explaination": "Cette présentation commence par une brève introduction à la programmation réactive avec les Iteratee puis tout le reste consiste en un Live coding très didactique qui explique point par point comment utiliser cette API de manière très concrète. Cette présentation fait également participer le public pour jouer avec l'application écrite durant la session.\n\nhttps://www.youtube.com/watch?v=gSVrolOP3VU",
+    "type": "Live-coding",
+    "bio": "Mathieu ANCELIN est développeur à SERLI, spécialisé dans la programmation web et les frameworks web modernes avec un bon background autour des technologies Java EE. Mathieu est impliqué dans plusieurs projets open-source comme GlassFish et Weld, et en lead également quelques un comme ReactiveCouchbase et Weld-OSGi; \nIl est membre de l'expert group de la JSR-346 (CDI 1.1), membre de l'OSGi EEG et fait partie de l'équipe du Poitou-Charentes JUG.\n\nMathieu est un speaker régulier autour de sujets liés à Java EE et les applications web. \nIl donne des cours à l'université de La Rochelle, à l'université de Poitiers et à l'école des Mines de Nantes. Mathieu a été speaker lors de différentes conférences comme JavaOne, Solutions Linux, Devoxx BE, Devoxx FR, ainsi que lors de différents évènements liés aux JUGs (JUG Summer Camp, BreizhCamp, etc ...).",
+    "email": "mathieu.ancelin@gmail.com",
+    "job": "Programmeur",
+    "company": "SERLI",
+    "theme": "Java (Java8, Langages de la jvm, pratiques de programmation)",
+    "format": "Conférence (45 min) - 16 sessions",
+    "twitter": "@TrevorReznik",
+    "sharing": "J'autorise le partage de mes informations",
+    "level": "Confirmé"
+
+  },
+  {
+
+    "proposaldate": "2014-07-02T09:41:04.000Z",
+    "speaker": "Alexis Seigneurin",
+    "title": "Java 8 - Les interfaces fonctionnelles",
+    "description": "Java 8 introduit la notion d'\"interface fonctionnelle\". Derrière ce terme obscure se cache un mécanisme qui permet de passer des références sur méthodes et des lambdas en paramètre. Et ce, en toute transparence pour le code appelé.\n\nPas à pas, nous découvrirons comment utiliser cette nouveauté du langage qui permet d'introduire du code fonctionnel dans notre code Java !",
+    "explaination": "Dans cette session, je propose un décryptage d'une feature essentielle de Java 8 mais qui est pourtant mal documentée / mal comprise.\n\nJ'ai publié un post de blog sur le sujet lors de la sortie de Java 8 (http://blog.ippon.fr/2014/03/18/java-8-interfaces-fonctionnelles/) et j'ai également présenté un quickie au Breizh Camp en mai dernier.",
+    "type": "Conférence",
+    "bio": "Développeur depuis plus de 13 ans, je suis Manager Technique chez Ippon Technologies après avoir été CTO chez IDM.\n\nMes sujets favoris sont Java, Spark, Node.js, AngularJS, Vagrant...",
+    "email": "alexis@seigneurin.com",
+    "job": "Manager Technique",
+    "company": "Ippon Technologies",
+    "theme": "Java (Java8, Langages de la jvm, pratiques de programmation)",
+    "format": "Quickie (15 min) - 20 sessions",
+    "twitter": "@aseigneurin",
+    "blog": "http://aseigneurin.github.io/",
+    "sharing": "J'autorise le partage de mes informations",
+    "level": "Confirmé"
+
+  },
+  {
+
+    "proposaldate": "2014-07-02T09:50:01.000Z",
+    "speaker": "Alexis Seigneurin",
+    "title": "Vagrant pour les développeurs",
+    "description": "En tant que développeurs, nous travaillons souvent sur des environnements de développement dont les caractéristiques diffèrent plus ou moins de ce que l'on peut retrouver ensuite en production. Utiliser des machines virtuelles, pourquoi pas, mais c'est souvent peu pratique.\n\nDans cette session, nous verrons comment Vagrant va nous aider pour reproduire des environnements de prod sur nos postes de développement. Nous étudierons tous les mécanismes de base de l'outil : le provisioning, le mode multi-machines, la configuration réseau, les répertoires partagés. Nous n'aurons plus d'excuses pour ne pas livrer du code qui marche en prod !",
+    "explaination": "J'ai présenté ce talk chez Ippon en avril dernier (http://blog.ippon.fr/2014/05/06/video-ippevent-vagrant-puppet-packer/) ainsi qu'une version réduite au Breizh Camp en mai dernier (http://www.parleys.com/play/538f72a8e4b01a524d469a5d/chapter1/about).\n\nLors de ces présentations, j'essaye de rendre abordable un outil que peu de personnes osent utiliser. L'intérêt est généralement au rendez-vous :)",
+    "type": "Tools in action",
+    "bio": "Développeur depuis plus de 13 ans, je suis Manager Technique chez Ippon Technologies après avoir été CTO chez IDM.\n\nMes sujets favoris sont Java, Spark, Node.js, AngularJS, Vagrant...",
+    "email": "alexis@seigneurin.com",
+    "job": "Manager Technique",
+    "company": "Ippon Technologies",
+    "theme": "Java (Java8, Langages de la jvm, pratiques de programmation)",
+    "format": "Conférence (45 min) - 16 sessions",
+    "twitter": "@aseigneurin",
+    "blog": "http://aseigneurin.github.io/",
+    "sharing": "J'autorise le partage de mes informations",
+    "level": "Confirmé"
+
+  },
+  {
+
+    "proposaldate": "2014-07-14T06:59:15.000Z",
+    "speaker": "Julien Dubois",
+    "title": "JHipster, un générateur Yeoman pour les développeurs Java",
+    "description": "JHipster est un générateur Yeoman permettant de créer une application Maven + Spring Boot + AngularJS.\nDepuis sa création en Novembre 2013, le projet a connu une popularité très importante : + de 600 étoiles Github, 36 contributeurs, + de 100 000 pages vues par mois. C'est le 2ème générateur Yeoman \"communautaire\" le plus populaire, et le générateur d'applications Spring le plus populaire.\nCette présentation couvrira les technologies utilisées par JHipster (Spring Boot, AngularJS, Bower, Grunt, etc...), ainsi qu'une session de \"live coding\".",
+    "explaination": "Je suis le créateur et principal développeur de JHipster\n\nPlus d'informations sur le projet :\nhttp://jhipster.github.io/\n\nhttps://github.com/jhipster/generator-jhipster\n\nAinsi qu'une des premières conférences sur le sujet:\nhttps://www.youtube.com/watch?v=RaImyI1CPJY",
+    "type": "Conférence",
+    "bio": "Développeur Java depuis 15 ans, co-auteur de \"Spring par la pratique\" et créateur de http://jhipster.github.io/",
+    "email": "julien.dubois@gmail.com",
+    "theme": "Java (Java8, Langages de la jvm, pratiques de programmation)",
+    "format": "Conférence (45 min) - 16 sessions",
+    "needs": "Internet",
+    "twitter": "juliendubois",
+    "sharing": "J'autorise le partage de mes informations",
+    "level": "Confirmé"
+
+  },
+  {
+
+    "proposaldate": "2014-07-18T18:54:50.000Z",
+    "speaker": "Vincent Massol",
+    "title": "Métrologie pour webapps",
+    "description": "Une session qui montrera des métriques intéressantes et concrètes à définir et suivre pour vos projets Java (ou autres), et suivre l'état de santé du projet et voir si le développement va dans le bon sens. \n\nC'est un retour d'experience de métriques que l'on suit sur le projet open source XWiki (http://xwiki.org) avec ce qui marche, ne marche pas",
+    "explaination": "Slides (peu de texte et principalement des screenshots et images ;)).",
+    "type": "Conférence",
+    "bio": "Voir http://about.me/vmassol et http://massol.myxwiki.org/xwiki/bin/view/XWiki/VincentMassol",
+    "email": "vincent@massol.net",
+    "job": "CTO",
+    "company": "XWiki SAS",
+    "theme": "Java (Java8, Langages de la jvm, pratiques de programmation)",
+    "format": "Conférence (45 min) - 16 sessions",
+    "twitter": "vmassol",
+    "blog": "http://massol.net",
+    "sharing": "J'autorise le partage de mes informations",
+    "level": "Confirmé"
+
+  },
+  {
+
+    "proposaldate": "2014-07-25T15:48:11.000Z",
+    "speaker": "Emmanuel lécharny",
+    "title": "Keep it Simple, Stupid, my a** !",
+    "description": "Un des mantra qui circule dans le monde du développeur est KISS : Keep it simple, stupid !\nIl s'agit d'exiger des développeurs qu'ils conçoivent des architectures simples, qui seront plus faciles à maintenir.\nComme beaucoup de principes qui circulent chez les consultants en organisation, il s'agit plus d'un souhait marketing qu'une réalité tangible.\nCette présentation va tenter d'expliquer \"simplement\" pourquoi ce n'est pas si facile d'embrasser la simplicité !",
+    "explaination": "Partant d'exemples concret de projets Open Source, et de projets du monde de l'entreprise, l'objet de cette présentation est de montrer que KISS ne s'applique pas à tous les projets, et qu'il s'agit plutôt d'un voeu pieux qui a peu de chance de se réaliser.\nOn a tendance à négliger la complexité par incapacité à appréhender le sujet dans sa globalité en phase de démarrage, ce qui entraîne souvent la rencontre brutale d'un de ces ecueils :\n- une complexité trop importante, faute d'analyse préalable \n- une 'Overengineering' par volonté de s'adapter à des évolutions potentielles, qui ne se réalisent rarement\n- ou au contraire une architecture simpliste qu'il est impossible de faire évoluer quand les problématiques de montée en charges se font santir.",
+    "type": "Conférence",
+    "bio": "Développeur depuis 35 ans, après un passage de 12 ans dans quelques (grosses SSII), je fais le grand bond en avant et créé une petite société finalement peu différente d'une SSII. En 2005, je bascule dans le monde Open Source.\n\nMembre de l'ASF depuis 2007, responsable des projets MINA et ApacheDS, mentor de divers autres projets, je travaille actuellement avec la société Symas pour développer des solutions de sécurité et d'annuaires (toujours en Open Source).",
+    "email": "elecharny@apache.org",
+    "company": "SYMAS",
+    "theme": "Java (Java8, Langages de la jvm, pratiques de programmation)",
+    "format": "Conférence (45 min) - 16 sessions",
+    "twitter": "elecharny",
+    "blog": "http://hrabal.blogspot.fr/",
+    "sharing": "J'autorise le partage de mes informations",
+    "level": "Confirmé"
+
+  },
+  {
+
+    "proposaldate": "2014-07-30T16:44:38.000Z",
+    "speaker": "Thomas Escolan",
+    "title": "Etre productif avec Spring IO",
+    "description": "Depuis une dizaine d'années, le framework Spring s'impose dans beaucoup d'architectures de développement Java en proposant des solutions souples et légères. Complètement intégré à l'écosystème Java EE, il a également appliqué son empreinte au sein du JCP. Beaucoup de développeurs connaissent son environnement de développement intégré STS, Spring Security et parfois le RAD Spring Roo. Mais Spring dispose de son propre écosystème, le portfolio, avec parfois des technologies dont l'accès reste exigeant. Pourtant, les projets professionnels ont tout à gagner en intégrant par exemple Spring Boot, Spring Integration et Spring Batch à leur architecture. Cette présentation donne les clefs d'entrée de ces modules pour en saisir les opportunités et la cohérence, afin que les auditeurs puissent savoir comment résoudre des cas d'utilisation auparavant complexes grâce à la plateforme Spring IO.",
+    "explaination": "Après une introduction à la plateforme Spring IO et un rappel des principes du framework Spring, nous présenterons successivement Spring Roo, Spring Boot, Spring Integration et Spring Batch en indiquant leur domaine d’application, leur complémentarité et leur intégration à Java EE. L'accent est mis sur la productivité apportée par ces modules.",
+    "type": "Conférence",
+    "bio": "Thomas Escolan est responsable du Centre de Formation d'Ippon.\nDepuis plus de 15 ans, il s'est confronté à des problématiques de gestion dans le développement d'applications web. Il est aujourd’hui un référent sur les technologies Java EE, Spring, et l'intégration continue au sein des équipes Ippon Technologies. Il est aussi formateur régulier depuis 2012.",
+    "email": "tescolan@ippon.fr",
+    "job": "Architecte Spring/Java EE ; responsable des formations",
+    "company": "Ippon Technologies",
+    "theme": "Java (Java8, Langages de la jvm, pratiques de programmation)",
+    "format": "Conférence (45 min) - 16 sessions",
+    "blog": "blog.ippon.fr",
+    "sharing": "J'autorise le partage de mes informations",
+    "level": "Confirmé"
+
+  },
+  {
+
+    "proposaldate": "2014-07-31T19:47:36.000Z",
+    "speaker": "Fabrice Sznajderman",
+    "title": "Le pourquoi du comment du type Option",
+    "description": "Lorsque l'on découvre le monde de la programmation fonctionnelle, on est absorbé par une multitude de nouveaux concepts. Dans la masse, un concept a retenu mon attention : le type Option. \nCe type est disponible dans plusieurs langages comme Java (pas seulement la version 8), Scala, Groovy, Haskell, Ocaml, etc.\n\nSous la forme d'un live coding basé sur le langage Java, je vous propose de répondre à ces 2 questions : pourquoi et comment l'utiliser ?",
+    "explaination": "Cette présentation a pour objectif de faire découvrir le type option que l'on retrouve aujourd'hui dans plusieurs langages de la JVM et autres.\n\nJe suis convaincu que le type Option est un outil indispensable qu'il est important de connaître. Il contribue à l'amélioration de la qualité et de la robustesse du code.\n\nJe souhaite présenter ce sujet comme j'aurais aimé le découvrir : \n\tLes problématiques rencontrées,\n\tLes bonnes pratiques de mise en oeuvre du type Option (approche monadique).\t",
+    "type": "Live-coding",
+    "bio": "Développeur passionné par les technologies et architectures liées à l’écosystème Java ainsi qu’aux technologies du WEB. Je m’investis également dans le monde de la programmation fonctionnelle au travers du langage Scala. \n\nCo-fondateur de la page : http://gplus.to/javafr ou je publie régulièrement des articles. Fondateur de la communauté développeurFR : http://gplus.to/developpeurFR\nRédacteur pour le journal Programmez",
+    "email": "fabszn@gmail.com",
+    "job": "Développeur Java/Scala/Web",
+    "company": "Sfeir",
+    "theme": "Java (Java8, Langages de la jvm, pratiques de programmation)",
+    "format": "Quickie (15 min) - 20 sessions",
+    "twitter": "@fsznajderman",
+    "blog": "http://gplus.to/javafr",
+    "sharing": "J'autorise le partage de mes informations",
+    "level": "Débutant"
+
+  },
+  {
+
+    "proposaldate": "2014-06-06T19:48:02.000Z",
+    "speaker": "Emmanuel DEMEY",
+    "title": "Améliorer la qualité de votre application AngularJS avec ESLint",
+    "description": "ESLint est un outil permettant de vérifier la qualité de votre code JavaScript. Identique à JSHint ou JSLint, il permet également de créer ses propres règles, très utile lorsque vous avez des règles propres à votre entreprise.\nDurant cette conférence, je vous expliquerai la démarche à suivre pour créer ses propres règles, configurer ESLint dans vos scripts Grunt, et ainsi déployer en production du code JavaScript de qualité. \n",
+    "explaination": "Présentation de l'outil ESLint et de la librairie Esprima. Cette dernière est utilisé par ESLint pour définir les règles de qualité. \nJ'expliquerai la syntaxe et la démarche à suivre pour créer ses propres règles, en me basant sur un projet AngularJS. ",
+    "type": "Conférence",
+    "bio": "Membre d'une équipe fournissant des conseils dans les technologies Web et Mobile, je suis spécialisé dans les technologies JavaScript : AngularJS, jQuery, ... Je porte également un très grand intérêt pour les outils Node.js : Grunt, Bower, ESLint ...\nJ'ai déjà eu la chance de participer à des conférences : Scala/Akka, Les CSS Préprocesseurs, Les Applications Hybrides, L'Accessibilité Web, ...\nVous pouvez me suivre sur @EmmanuelDemey. ",
+    "email": "demey.emmanuel@gmail.com",
+    "theme": "Web (Front, HTML, CSS, JS)",
+    "format": "Quickie (15 min) - 20 sessions",
+    "twitter": "EmmanuelDemey",
+    "blog": "http://gillespie59.github.io/",
+    "sharing": "J'autorise le partage de mes informations",
+    "level": "Confirmé"
+
+  },
+  {
+
+    "proposaldate": "2014-06-06T19:49:40.000Z",
+    "speaker": "Emmanuel DEMEY",
+    "title": "Et maintenant du JavaScript pour des applications de bureau ? ",
+    "description": "Après avoir utiliser JavaScript pour des sites web ... ensuite dans les applications mobiles grâce aux frameworks hybrides, Google propose à présent d'utiliser cette technologie, longtemps mal aimé, dans des applications de bureautique...\nDurant cette présentation, je vous présenterai les bases des ChromeApps : les APIs disponibles, leurs utilités, ...",
+    "explaination": "Le but de cette conférence est de présenter en détail les différentes API utilisables lorsque on développe des Chrome Apps, ainsi que les pièges à éviter. \n",
+    "type": "Conférence",
+    "bio": "Membre d'une équipe fournissant des conseils dans les technologies Web et Mobile, je suis spécialisé dans les technologies JavaScript : AngularJS, jQuery, ... Je porte également un très grand intérêt pour les outils Node.js : Grunt, Bower, ESLint ...\nJ'ai déjà eu la chance de participer à des conférences : Scala/Akka, Les CSS Préprocesseurs, Les Applications Hybrides, L'Accessibilité Web, ...\nVous pouvez me suivre sur @EmmanuelDemey. ",
+    "email": "demey.emmanuel@gmail.com",
+    "theme": "Web (Front, HTML, CSS, JS)",
+    "format": "Conférence (45 min) - 16 sessions",
+    "twitter": "EmmanuelDemey",
+    "blog": "http://gillespie59.github.io/",
+    "sharing": "J'autorise le partage de mes informations",
+    "level": "Débutant"
+
+  },
+  {
+
+    "proposaldate": "2014-06-21T09:24:41.000Z",
+    "speaker": "tugdual Grall",
+    "title": "Fier d'etre polyglotte!",
+    "description": "C'est un fait! Les nouvelles applications, et les nouveaux développeurs sont polyglottes! Ils utilisent différents langages, différentes solution de persistence...\n\nAu cours de cette présentation vous verrez pourquoi il est intéressant, et important d'utiliser plusieurs technologies, langages et datastore, dans vos applications. Vous verrez comment mélanger des programmes Java/Java EE, des langages fonctionnels et langages de scripts mais aussi pourquoi utiliser plusieurs solution de persistence telles que des bases de données relationnelles, des bases NoSQL comme MongoDB mais aussi Hadoop pour répondre aux nouveaux besoin \"Big Data/Big Users\"\n\nEn résumé : le bon outil pour le bon usage\n",
+    "explaination": "Une presentation tres generiques sur le melange des technos...\n- pourquoi melanger Java, Python, JS....\n- pourquoi utliser Hadoop+MongoDB en plus de votre base RDBMS...",
+    "type": "Conférence",
+    "bio": "Technical Evangelist at MongoDB, passionate developer. Co-founder of the @nantesJUG, and founder of http://www.resultri.com\n",
+    "email": "tugdual@gmail.com",
+    "job": "Technical Evangelost",
+    "company": "MongoDB",
+    "theme": "Web (Front, HTML, CSS, JS)",
+    "format": "Conférence (45 min) - 16 sessions",
+    "needs": "Nope",
+    "twitter": "tgrall",
+    "blog": "blog.grallandco.com",
+    "sharing": "J'autorise le partage de mes informations",
+    "level": "Débutant"
+
+  },
+  {
+
+    "proposaldate": "2014-06-26T07:16:22.000Z",
+    "speaker": "Matthias Dugué",
+    "title": "Petite histoire du web, d'hier à demain",
+    "description": "Hier, mon voisin Tim avait une idée un peu folle ; une de celles qu'on imagine lors d'une soirée en se disant que les choses seraient tellement plus simples comme ça.\n\nHier soir, Tim a donné vie à son idée. Un truc un peu fou. Offrir au monde un espace documentaire interconnecté, accessible de n'importe où sur la planète.\n\nAujourd'hui, l'idée de Tim ne lui appartient plus. Ô bien sûr, il est toujours là, Tim. Plus que jamais même. Mais le monde s'est approprié son idée, et s'en sert pour communiquer, échanger, partager. La connexion commence à entrer partout, dans les ordinateurs, les téléphones, les TVs, les maisons…\n\nEt demain, alors, ça va devenir quoi, ce « Web » ?",
+    "explaination": "En quinze, réalisons un tour historique du web, depuis son origine jusqu'à aujourd'hui. Quels ont été ses mutations, ses erreurs, ses forces et ses échecs, et extrapolons ensemble pour comprendre vers quoi va tendre le Web de demain.",
+    "type": "Conférence",
+    "bio": "Matthias Dugué est Dev UI chez Clever Age et éleveur de licornes de combat depuis 1996. Quand il ne s'amuse pas à démonter et à remonter les interfaces de ses clients, il se livre à un culte étrange visant à réinventer le web autour de bières en compagnie de ses compagnons de fortune.",
+    "email": "contact+me@m4dz.net",
+    "theme": "Web (Front, HTML, CSS, JS)",
+    "format": "Quickie (15 min) - 20 sessions",
+    "twitter": "m4d_z",
+    "blog": "http://m4dz.net",
+    "sharing": "J'autorise le partage de mes informations",
+    "level": "Débutant"
+
+  },
+  {
+
+    "proposaldate": "2014-06-26T07:18:58.000Z",
+    "speaker": "Matthias Dugué",
+    "title": "Modern Web Apps - Mode d'emploi",
+    "description": "Passé du formation de diffusion et de consultation (que c'est beau, un wiki) à celui de média d'interaction (le mouvement « social medias » en tête), le Web est désormais sur une nouvelle voie, celle de l'app. De nouveau, on oublie tout, et on recommence. Le Web devient un écosystème encore plus vaste, et les navigateurs sont désormais des machines virtuelles prêtes à propulser nos applications.\n\nPlutôt que de foncer tête baissée (on fait souvent ça, non ?), tirons parti de plusieurs dizaines d'années d'ingénierie logicielle pour nous inspirer et construire des apps à la fois modernes et élégantes, mais également adaptées au média Web.\n\nPetit tour d'horizon des outils à disposition pour déjouer les pièges et construire des apps de qualité, côté _front_ et côté _back_ et analyse d'architectures efficaces et performantes.\n\nOubliez ce que vous pensiez savoir, enfourchez vos claviers, on repart encore un peu plus à l'ouest…",
+    "explaination": "Le Web devient de plus en plus un écosystème complet dans lequel les navigateurs ne sont plus que des VM éxecutant des apps. En 15', nous ferons un parallèle entre la virtualisation actuelle et son modèle abstrait à la couche Web, et nous détaillerons les bonnes pratiques et les outils pour réaliser des webapps de qualité et performantes.",
+    "type": "Conférence",
+    "bio": "Matthias Dugué est Dev UI chez Clever Age et éleveur de licornes de combat depuis 1996. Quand il ne s'amuse pas à démonter et à remonter les interfaces de ses clients, il se livre à un culte étrange visant à réinventer le web autour de bières en compagnie de ses compagnons de fortune.",
+    "email": "contact+me@m4dz.net",
+    "theme": "Web (Front, HTML, CSS, JS)",
+    "format": "Quickie (15 min) - 20 sessions",
+    "twitter": "m4d_z",
+    "blog": "http://m4dz.net",
+    "sharing": "J'autorise le partage de mes informations",
+    "level": "Confirmé"
+
+  },
+  {
+
+    "proposaldate": "2014-06-26T17:47:52.000Z",
+    "speaker": "Yacine Rezgui",
+    "title": "Créer une application mobile en HTML5, de la bidouille à la production",
+    "description": "Peut-on considérer le HTML5 comme une technologie mature pour la réalisation d'applications mobile ?\n\n- Qu'en est-il de l'interface graphique ?\n- A-t-on accès aux mêmes APIs internes que les applications natives ?\n- Quels sont les différents outils de développement ?\n- Quid du debugging ?\n- Le code multiplateforme est-il une réalité ou un mythe ?\n\nJe veux partager mon retour d'expérience autour de la réalisation from scratch d'une app mobile to production pour permettre en HTML5 au public de :\n\n- évaluer l'intérêt des différentes technologies citées dans le résumé\n- connaître les avantages et inconvénients du HTML5 suivant les différentes plateformes\n- inspirer les développeurs web à une approche app-oriented (avec toute l'intéraction qu'elle devrait avoir)\n- avoir un aperçu technique permettant une phase de développement plus rapide quelque soit le projet donné.\n",
+    "explaination": "Je ferais une introduction aux différentes plateformes de développement mobile multiplateforme, leurs inconvénients/avantages et finalement pourquoi HTML5 serait une solution plus intéressante (je n'ai pas dit la solution parfaite :) ). Après avoir fait un tour des possibilités, je montrerai les différents outils utilisés pour permettre d'avoir un développement de A à Z dans les règles de l'art.",
+    "type": "Conférence",
+    "bio": "Je suis développeur web habitant à Londres. Je me suis spécialisé dans le fullstack JavaScript et j'expérimente toutes les nouveautés relatives au HTML5, bases de données orientées document/graph, le cloud hosting dans ses différentes natures. J'ai donné plusieurs talks à des meetups différents à Nice, Paris et Londres. Je suis organisateur du London Phonegap Meetup.",
+    "email": "rezgui.y@gmail.com",
+    "job": "Web Developer",
+    "company": "GovernorHub",
+    "theme": "Web (Front, HTML, CSS, JS)",
+    "format": "Conférence (45 min) - 16 sessions",
+    "needs": "Internet, Projecteur, Micro.",
+    "twitter": "http://www.twitter.com/yrezgui",
+    "blog": "https://medium.com/@yrezgui",
+    "sharing": "J'autorise le partage de mes informations",
+    "level": "Confirmé"
+
+  },
+
+  {
+    "proposaldate": "2014-07-31T12:34:03.000Z",
+    "speaker": "Baptiste Moineau",
+    "title": "Gestion de projet Angular",
+    "description": "Depuis 2 ans, 3 framework JS de data binding sont en train d'émerger: Knockout.js, Ember.js et AngularJS.\nLes deux premiers sont issus d'initiative communautaires en open source tandis que le troisième est porté par Google.\nChez Ekino, nous avons orienté notre expertise vers le framework Angular et j'ai eu l'opportunité d'encadrer plusieurs projets utilisant cette technologie.\nL'objectif de ma présentation est de faire un retour d'expérience sur la gestion de projets utilisant Angular. Je vous présenterai ma vision sur le déroulement que ceux-ci doivent prendre et quels sont les pièges à éviter. Je vous ferai aussi part d'une panoplie de trucs et astuces sur lesquels nous capitalisons pour optimiser les projets à venir.",
+    "explaination": "Après une rapide présentation de la techno Angular, je vais donner des axes de réflexion à avoir lors du cadrage et des astuces qui facilitent le développement et la recette. Je vais aussi indiquer quels sont les pièges à éviter.\nCette conférence a pour but de partager mon retour d'expérience sur des projets utilisant Angular JS.",
+    "type": "Conférence",
+    "bio": "Toujours un projet en tête, j'ai passé beaucoup de temps à développer des sites ou des petites applis web. J'ai toujours souhaité acquérir de nouvelles connaissances et pratiques que j’aime partager ensuite. Je me suis beaucoup investi dans l’aide d'étudiants en difficultés.\nDepuis 2010, j'évolue au sein de personnes passionnées chez Ekino. J'ai passé 4 années avec la casquette de chef de projet technique autour de la boutique en ligne de SFR. Mon quotidien tourne autour du Java, HTML5, CSS3 et Angular tout en assurant le relationnel client. J'apprécie tous les aspects de mon job, surtout quand la pression se fait ressentir.\nJe partage la philosophie d'Ekino qui tend à vouloir utiliser et développer une expertise sur les dernières technologies.",
+    "email": "baptiste.moineau@gmail.com",
+    "theme": "Web (Front, HTML, CSS, JS)",
+    "format": "Quickie (15 min) - 20 sessions",
+    "sharing": "J'autorise le partage de mes informations",
+    "level": "Débutant"
+  }
+
+]

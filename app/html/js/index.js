@@ -15,7 +15,7 @@ function MainCtrl($scope, $http,  $modal) {
         if ($scope.alerts.length > 1) {
             $scope.alerts.shift();
         }
-        $http({method: 'GET', url: '/api/proposal'}).
+        $http({method: 'GET', url: '/api_proposal.json'}).
             success(function(data, status, headers, config) {
                 $scope.alerts.push({msg: 'Chargement OK',type: 'success'});
                 if ($scope.alerts.length > 1) {
